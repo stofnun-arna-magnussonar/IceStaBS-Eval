@@ -1,0 +1,36 @@
+FILE_FOLDERS:
+    data_dir: data
+    base_dir: /home/hinhaf/projects/malryni-pipeline
+
+INPUT_FILES:
+    ex_1: oleidrett_1.txt
+    ex_2: oleidrett_2.txt
+    ex_3: oleidrett_3.txt
+
+OUTPUT_FILES:
+    corrections: corrections.tsv
+
+REFERENCE_FILES:
+    ex_1: leidrett_1.txt
+    ex_2: leidrett_2.txt
+    ex_3: leidrett_3.txt
+
+GLOBALS:
+    examples: 
+        - ex_1
+        - ex_2
+        - ex_3
+    tools: 
+        - byt5-22-09
+        - byt5-23-12
+        - byt5-24-03
+        - greynir-correct
+        - ice-gpt-sw3
+        - skrambi
+        - google
+        - word
+    manual_tools:
+        - skrambi
+        - puki
+        - google
+        - word
