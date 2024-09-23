@@ -1,3 +1,4 @@
+---
 FILE_FOLDERS:
     data_dir: data
     base_dir: /home/hinhaf/projects/malryni-pipeline
@@ -21,14 +22,42 @@ GLOBALS:
         - ex_2
         - ex_3
     tools: 
-        - byt5-22-09
-        - byt5-23-12
-        - byt5-24-03
-        - greynir-correct
-        - ice-gpt-sw3
-        - skrambi
-        - google
-        - word
+        byt5-22-09:
+          name: Byte-Level Neural Error Correction Model for Icelandic - Yfirlestur (22.09)
+          url: http://hdl.handle.net/20.500.12537/255
+          id: byt5-22-09
+        byt5-23-12:
+          name: Byte-Level Neural Error Correction Model for Icelandic - Yfirlestur (23.12)
+          url: http://hdl.handle.net/20.500.12537/321
+          id: byt5-23-12
+        byt5-24-03:
+          name: Byte-Level Neural Error Correction Model for Icelandic - Yfirlestur (24.03)
+          url: http://hdl.handle.net/20.500.12537/324
+          id: byt5-24-03
+        greynir_correct:
+          name: GreynirCorrect
+          url: "https://github.com/mideind/GreynirCorrect"
+          id: greynir_correct
+        ice-gpt-sw3:
+          name: Icelandic GPT-SW3 for Spell and Grammar Checking
+          url: https://huggingface.co/mideind/icelandic-gpt-sw3-6.7b-gec
+          id: ice-gpt-sw3
+        skrambi:
+          name: Skrambi
+          url: "https://skrambi.arnastofnun.is/"
+          id: skrambi
+        google:
+          name: Google Docs Spelling and Grammar check
+          url: ""
+          id: google
+        word:
+          name: MS Word Spelling and Grammar check
+          url: ""
+          id: word
+        puki:
+          name: Ritvilluvörnin Púki
+          url: "https://puki.is/"
+          id: puki
     manual_tools:
         - skrambi
         - puki
