@@ -27,7 +27,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (a)"
     },
     "1.2.1 (ba)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir upphrópunarmerki.",
@@ -56,7 +56,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (ba)"
     },
     "1.2.1 (bb)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir upphrópunarmerki innan sömu málsgreinar.",
@@ -85,7 +85,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (bb)"
     },
     "1.2.1 (ca)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir spurningarmerki.",
@@ -114,7 +114,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (ca)"
     },
     "1.2.1 (cb)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir spurningarmerki innan sömu málsgreinar.",
@@ -143,9 +143,9 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (cb)"
     },
-    "1.2.1 (d)": {
+    "1.2.1 (da)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir tvípunkti.",
         "long_suggestion": "Stór stafur er alltaf ritaður í sjálfstæðri málsgrein eða beinni tilvitnun á eftir tvípunkti. Ef orð fylgir á eftir tvípunkti innan sömu málsgreinar, t.a.m. ef um er að ræða upptalningu, ber hins vegar að nota lítinn staf. Sjá ritreglur 1.2.1 (https://ritreglur.arnastofnun.is/#1.2.1) og 29.3 (https://ritreglur.arnastofnun.is/#29.3) og 29.4 (https://ritreglur.arnastofnun.is/#29.4).",
         "examples": {
@@ -172,7 +172,36 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (da)"
+    },
+    "1.2.1 (db)": {
+        "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir tvípunkti innan sömu málsgreinar.",
+        "long_suggestion": "Stór stafur er alltaf ritaður í sjálfstæðri málsgrein eða beinni tilvitnun á eftir tvípunkti. Ef orð fylgir á eftir tvípunkti innan sömu málsgreinar, t.a.m. ef um er að ræða upptalningu, ber hins vegar að nota lítinn staf. Sjá ritreglur 1.2.1 (https://ritreglur.arnastofnun.is/#1.2.1) og 29.3 (https://ritreglur.arnastofnun.is/#29.3) og 29.4 (https://ritreglur.arnastofnun.is/#29.4).",
+        "examples": {
+            "1": {
+                "original_sentence": "Þú elskar þetta mest í lífinu: Svefn og tölvuleiki.",
+                "standardized_sentence": "Þú elskar þetta mest í lífinu: svefn og tölvuleiki.",
+                "suggestion": "<Svefn> á líklega að vera með litlum staf, <svefn>, þar sem það kemur á eftir tvípunkti innan sömu málsgreinar.",
+                "original_part": "Svefn",
+                "standardized_part": "svefn"
+            },
+            "2": {
+                "original_sentence": "Ég þarf að kaupa þrennt: Mjólk, brauð og smjör.",
+                "standardized_sentence": "Ég þarf að kaupa þrennt: mjólk, brauð og smjör.",
+                "suggestion": "<Mjólk> á líklega að vera með litlum staf, <mjólk>, þar sem það kemur á eftir tvípunkti innan sömu málsgreinar.",
+                "original_part": "Mjólk",
+                "standardized_part": "mjólk"
+            },
+            "3": {
+                "original_sentence": "Hann er seinheppinn eins og fyrri daginn: Missir af flugvélinni og tefst í þrjá daga.",
+                "standardized_sentence": "Hann er seinheppinn eins og fyrri daginn: missir af flugvélinni og tefst í þrjá daga.",
+                "suggestion": "<Missir> á líklega að vera með litlum staf, <missir>, þar sem það kemur á eftir tvípunkti innan sömu málsgreinar.",
+                "original_part": "Missir",
+                "standardized_part": "missir"
+            }
+        },
+        "error_code": "upper4lower-noninitial",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (db)"
     },
     "1.2.1 (e)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir kommu.",
@@ -201,7 +230,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (e)"
     },
     "1.2.1 (f)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir semíkommu.",
@@ -230,7 +259,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (f)"
     },
     "1.2.2.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem það er yfirleitt ekki stór stafur í seinni hluta heitis nema hann sé sjálfstætt sérnafn eða sérnöfn.",
@@ -259,7 +288,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.1 (a)"
     },
     "1.2.2.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem það er yfirleitt ekki stór stafur í heiti sem er fleiri en eitt orð.",
@@ -288,7 +317,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.1 (b)"
     },
     "1.2.2.2 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn.",
@@ -317,7 +346,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 a"
     },
     "1.2.2.2 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á guðlegri eða yfirnáttúrulegri veru.",
@@ -346,7 +375,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 b"
     },
     "1.2.2.2 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á dýri.",
@@ -375,7 +404,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 c"
     },
     "1.2.2.2 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á persónugerðu fyrirbæri.",
@@ -404,7 +433,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 d"
     },
     "1.2.2.3 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er örnefni.",
@@ -433,7 +462,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 a"
     },
     "1.2.2.3 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á byggð.",
@@ -462,7 +491,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 b"
     },
     "1.2.2.3 c (a)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á stjörnu eða öðru fyrirbæri í geimnum.",
@@ -491,7 +520,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (a)"
     },
     "1.2.2.3 c (b)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem íslensk heiti himintungla í okkar sólkerfi eru rituð með litlum upphafsstaf.",
@@ -520,7 +549,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (b)"
     },
     "1.2.2.3 c (c)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem heiti stjörnumerkja eru rituð með litlum upphafsstaf.",
@@ -549,7 +578,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (c)"
     },
     "1.2.2.4 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á húsi eða mannvirki.",
@@ -578,7 +607,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 a"
     },
     "1.2.2.4 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á farartæki.",
@@ -607,7 +636,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 b"
     },
     "1.2.2.4 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á hugverki.",
@@ -636,7 +665,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 c"
     },
     "1.2.2.4 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er vörumerki.",
@@ -665,7 +694,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 d"
     },
     "1.2.2.5 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á stofnun eða fyrirtæki.",
@@ -694,7 +723,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.5 a"
     },
     "1.2.2.5 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á félagi eða klúbbi.",
@@ -723,7 +752,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.5 b"
     },
     "1.2.3.1": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er þjóðarheiti.",
@@ -752,7 +781,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.1"
     },
     "1.2.3.2 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er íbúaheiti.",
@@ -781,7 +810,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 a"
     },
     "1.2.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er ættaheiti.",
@@ -810,7 +839,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 b"
     },
     "1.2.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti fólks sem er kennt við lið eða samtök.",
@@ -839,7 +868,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 c"
     },
     "1.2.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er dregið af heiti stjórnmálaflokks.",
@@ -868,7 +897,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 d"
     },
     "1.2.4 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem fyrri hluti orðsins er nafn.",
@@ -897,7 +926,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 a"
     },
     "1.2.4 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem seinni hluti orðsins er nafn.",
@@ -926,7 +955,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 b"
     },
     "1.2.4 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem seinni hluti orðsins er nafn.",
@@ -955,7 +984,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 c"
     },
     "1.2.5.1": null,
     "1.2.5.2": {
@@ -985,7 +1014,7 @@
             }
         },
         "error_code": "lower4upper-acro",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.5.2"
     },
     "1.3.1": null,
     "1.3.2 a": {
@@ -1015,7 +1044,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 a"
     },
     "1.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem viðurnefni eru rituð með litlum staf.",
@@ -1044,7 +1073,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 b"
     },
     "1.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er nafn á degi eða mánuði.",
@@ -1073,7 +1102,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 c"
     },
     "1.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á starfsgrein eða prófi.",
@@ -1102,7 +1131,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 d"
     },
     "1.3.2 e": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á efni eða vöru.",
@@ -1131,7 +1160,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 e"
     },
     "1.3.2 f": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er gjaldmiðill.",
@@ -1160,7 +1189,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 f"
     },
     "1.3.2 g": null,
     "1.3.3.1": null,
@@ -1191,7 +1220,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 a"
     },
     "1.3.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er jurtategund.",
@@ -1220,7 +1249,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 b"
     },
     "1.3.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er matvælategund.",
@@ -1249,7 +1278,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 c"
     },
     "1.3.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er sjúkdómur eða heilkenni.",
@@ -1278,7 +1307,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 d"
     },
     "1.3.3.2 e": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á trúarbrögðum eða stefnu.",
@@ -1307,7 +1336,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 e"
     },
     "1.3.3.2 f": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er stjórnmálastefna.",
@@ -1336,7 +1365,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 f"
     },
     "1.3.3.2 g": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er upprunalega dregið af sérnafni en hefur fengið almenna merkingu.",
@@ -1365,7 +1394,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 g"
     },
     "1.3.3.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem dagar og tímabil eru rituð með litlum staf.",
@@ -1394,7 +1423,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.3"
     },
     "1.3.4": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á tungumáli eða mállýsku.",
@@ -1423,7 +1452,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.4"
     },
     "1.3.5": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er kynþáttaheiti.",
@@ -1452,7 +1481,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.5"
     },
     "1.3.6.1": null,
     "1.3.6.2": null,
@@ -1487,7 +1516,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.1"
     },
     "2.1.2": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð.",
@@ -1516,7 +1545,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.2"
     },
     "2.1.3": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð þar sem fyrri liður er áhersluforliður.",
@@ -1545,7 +1574,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.3"
     },
     "2.1.4.1": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1574,7 +1603,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.4.1"
     },
     "2.1.4.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>, þar sem það er heiti á Íslendingasögu.",
@@ -1603,7 +1632,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.4.2"
     },
     "2.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1632,7 +1661,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.2 (a)"
     },
     "2.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1661,7 +1690,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.2 (b)"
     },
     "2.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1690,7 +1719,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.3 (a)"
     },
     "2.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1719,7 +1748,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.3 (b)"
     },
     "2.4.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1748,7 +1777,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.1 (a)"
     },
     "2.4.1. (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1777,7 +1806,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.1. (b)"
     },
     "2.4.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1806,7 +1835,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.2"
     },
     "2.5 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1835,7 +1864,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (a)"
     },
     "2.5 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1864,7 +1893,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (b)"
     },
     "2.5 (c)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1893,7 +1922,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (c)"
     },
     "2.6.1": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1922,7 +1951,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.6.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.6.1"
     },
     "2.6.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1951,7 +1980,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.6.2"
     },
     "2.7": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>, þar sem það er samtenging.",
@@ -1980,7 +2009,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.7"
     },
     "2.8.1": null,
     "2.8.2": {
@@ -2010,7 +2039,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.8.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.8.2"
     },
     "2.8.3": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð.",
@@ -2039,7 +2068,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.8.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.8.3"
     },
     "2.9": null,
     "3": null,
@@ -2071,7 +2100,7 @@
             }
         },
         "error_code": "missing-accent/extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.2"
     },
     "3.3.1": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>je</i>, <leiðrétt>, líkt og nokkur önnur orð af erlendum uppruna.",
@@ -2100,7 +2129,7 @@
             }
         },
         "error_code": "extra-accent/missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.3.1"
     },
     "3.3.2": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>je</i>, <leiðrétt>, líkt og öll orð sem enda á <i>-jandi</i> í eintölu.",
@@ -2129,7 +2158,7 @@
             }
         },
         "error_code": "extra-accent/missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.3.2"
     },
     "3.4": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>, líkt og alltaf þar sem á undan kemur <i>k</i> eða <i>g</i>.",
@@ -2158,7 +2187,7 @@
             }
         },
         "error_code": "extra-accent/extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.4"
     },
     "3.5": null,
     "4.1": null,
@@ -2189,7 +2218,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (a)"
     },
     "4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2218,7 +2247,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (b)"
     },
     "4.2 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2247,7 +2276,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (c)"
     },
     "4.2 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i>/<i>nng</i> eða <i>n</i>/<i>nnk</i>.",
@@ -2276,7 +2305,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (d)"
     },
     "4.2 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2305,7 +2334,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (e)"
     },
     "4.2 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ö</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2334,7 +2363,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (f)"
     },
     "4.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, líkt og framburður bendir til.",
@@ -2363,7 +2392,7 @@
             }
         },
         "error_code": "extra-accent/missing-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.3"
     },
     "5.1": null,
     "5.2 (a)": {
@@ -2393,7 +2422,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (a)"
     },
     "5.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -2422,7 +2451,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (b)"
     },
     "5.2 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>.",
@@ -2451,7 +2480,7 @@
             }
         },
         "error_code": "extra-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (c)"
     },
     "5.2 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>o</i>, <leiðrétt>.",
@@ -2480,7 +2509,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (d)"
     },
     "5.2 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>.",
@@ -2509,7 +2538,7 @@
             }
         },
         "error_code": "extra-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (e)"
     },
     "5.2 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -2538,7 +2567,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (f)"
     },
     "5.2 (g)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ö</i>, <leiðrétt>.",
@@ -2567,7 +2596,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (g)"
     },
     "5.2 (h)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>í</i>, <leiðrétt>.",
@@ -2596,7 +2625,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (h)"
     },
     "5.2 (i)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -2625,7 +2654,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (i)"
     },
     "5.2 (j)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>au</i>, <leiðrétt>.",
@@ -2654,7 +2683,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (j)"
     },
     "5.2 (k)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ei</i>, <leiðrétt>.",
@@ -2683,7 +2712,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (k)"
     },
     "5.2 (l)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -2712,7 +2741,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (l)"
     },
     "5.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>a</i>, <leiðrétt>.",
@@ -2741,7 +2770,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (a)"
     },
     "5.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -2770,7 +2799,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (b)"
     },
     "5.3 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>o</i>, <leiðrétt>.",
@@ -2799,7 +2828,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (c)"
     },
     "5.3 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>.",
@@ -2828,7 +2857,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (d)"
     },
     "5.3 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -2857,7 +2886,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (e)"
     },
     "5.3 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ei</i>, <leiðrétt>.",
@@ -2886,7 +2915,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (f)"
     },
     "5.3 (k)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -2915,7 +2944,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (k)"
     },
     "5.4 (a)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>a</i>, <leiðrétt>.",
@@ -2944,7 +2973,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (a)"
     },
     "5.4 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -2973,7 +3002,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (b)"
     },
     "5.4 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>.",
@@ -3002,7 +3031,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (c)"
     },
     "5.4 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -3031,7 +3060,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (d)"
     },
     "5.4 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>í</i>, <leiðrétt>.",
@@ -3060,7 +3089,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (e)"
     },
     "5.4 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -3089,7 +3118,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (f)"
     },
     "6.1": null,
     "6.2.1": {
@@ -3119,7 +3148,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.1"
     },
     "6.2.2": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ý</i>, leiðrétt.",
@@ -3148,7 +3177,7 @@
             }
         },
         "error_code": "í4ý",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.2"
     },
     "6.2.3": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -3177,7 +3206,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.3"
     },
     "6.3": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -3206,7 +3235,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.3"
     },
     "6.4": null,
     "6.5": null,
@@ -3240,7 +3269,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.1"
     },
     "7.3.2": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem <i>v</i> er ritað fyrir v-hljóð í viðskeytum orða.",
@@ -3269,7 +3298,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.2"
     },
     "7.3.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem <i>f</i> er ritað fyrir v-hljóð sem helst í öllum beygingarmyndum.",
@@ -3298,7 +3327,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.3"
     },
     "7.3.4": null,
     "7.3.5": {
@@ -3328,7 +3357,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.5"
     },
     "7.4": null,
     "7.5 (a)": {
@@ -3358,7 +3387,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.5 (a)"
     },
     "7.5 (b)": {
         "short_suggestion": "<villa> á líklega að vera með <ffl>, <leiðrétt>, líkt og vanalega þegar fl-hljóð heyrist í miðju orði.",
@@ -3387,7 +3416,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.5 (b)"
     },
     "7.6": {
         "short_suggestion": "<villa> á líklega að vera með <fn>, <leiðrétt>, líkt og vanalega þegar bn-hljóð heyrist í miðju orði.",
@@ -3416,7 +3445,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.6"
     },
     "8.1": null,
     "8.2.1": {
@@ -3446,7 +3475,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.2.1"
     },
     "8.2.2": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>.",
@@ -3475,7 +3504,7 @@
             }
         },
         "error_code": "missing-letter/letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.2.2"
     },
     "8.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>.",
@@ -3504,7 +3533,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.3"
     },
     "8.4.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í öðrum beygingarmyndum orðsins.",
@@ -3533,7 +3562,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.4.1"
     },
     "8.4.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í skyldum orðum.",
@@ -3562,7 +3591,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.4.2"
     },
     "8.5.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í kennimyndum.",
@@ -3591,7 +3620,7 @@
             }
         },
         "error_code": "missing-letter/letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.5.1"
     },
     "8.5.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>gg</i>, <leiðrétt>, líkt og í heiti sagnarinnar.",
@@ -3620,7 +3649,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.5.2"
     },
     "8.5.3": null,
     "8.6.1": {
@@ -3650,7 +3679,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.1"
     },
     "8.6.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -3679,7 +3708,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.2"
     },
     "8.6.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>.",
@@ -3708,7 +3737,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.3 (a)"
     },
     "8.6.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>g</i>, <leiðrétt>.",
@@ -3737,7 +3766,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.3 (b)"
     },
     "8.6.4 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>g<i>, <leiðrétt>.",
@@ -3766,7 +3795,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.4 (a)"
     },
     "8.6.4 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>g</i>, <leiðrétt>.",
@@ -3795,7 +3824,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.4 (b)"
     },
     "8.6.5": null,
     "9.1": null,
@@ -3826,7 +3855,7 @@
             }
         },
         "error_code": "kv4hv",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#9.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/9.2"
     },
     "9.3": null,
     "10.1": null,
@@ -3857,7 +3886,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.2"
     },
     "10.3.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>j</i>, <leiðrétt>.",
@@ -3886,7 +3915,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.3.1"
     },
     "10.3.2": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -3915,7 +3944,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.3.2"
     },
     "10.3.3": null,
     "10.4.1": {
@@ -3945,7 +3974,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.1"
     },
     "10.4.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>j</i>, <leiðrétt>.",
@@ -3974,7 +4003,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.2 (a)"
     },
     "10.4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -4003,7 +4032,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.2 (b)"
     },
     "10.5": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -4032,7 +4061,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.5"
     },
     "11": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>m</i>, <leiðrétt>.",
@@ -4061,7 +4090,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#11"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/11"
     },
     "12.1": null,
     "12.2 (a)": {
@@ -4091,7 +4120,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.2 (a)"
     },
     "12.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>. ",
@@ -4120,7 +4149,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.2 (b)"
     },
     "12.3.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>. ",
@@ -4149,7 +4178,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.3.1 (a)"
     },
     "12.3.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4178,7 +4207,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.3.1 (b)"
     },
     "12.3.2": null,
     "12.4.1 (a)": {
@@ -4208,7 +4237,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.1 (a)"
     },
     "12.4.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4237,7 +4266,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.1 (b)"
     },
     "12.4.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>.",
@@ -4266,7 +4295,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.2 (a)"
     },
     "12.4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4295,7 +4324,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.2 (b)"
     },
     "12.5": null,
     "12.6.2": {
@@ -4325,7 +4354,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.6.2"
     },
     "12.7": null,
     "13.1": null,
@@ -4356,7 +4385,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.2.1"
     },
     "13.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>f</i>, <leiðrétt>.",
@@ -4385,7 +4414,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.2.2"
     },
     "13.3.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -4414,7 +4443,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.3.1"
     },
     "13.3.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>f</i>, <leiðrétt>.",
@@ -4443,7 +4472,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.3.2"
     },
     "14.1": null,
     "14.2.1 (a)": {
@@ -4473,7 +4502,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.1 (a)"
     },
     "14.2.1 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>, líkt og framburður gefur til kynna.",
@@ -4502,7 +4531,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.1 (b)"
     },
     "14.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4531,7 +4560,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.2"
     },
     "14.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4560,7 +4589,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.3"
     },
     "14.2.4": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4589,7 +4618,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.4"
     },
     "14.3 a": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>. (Hægt er að styðjast við lýsingarorðið <i>stór</i>.)",
@@ -4618,7 +4647,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.3 a"
     },
     "14.3 b": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>. (Hægt er að styðjast við lýsingarorðið <i>stór</i>.)",
@@ -4647,7 +4676,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.3 b"
     },
     "14.4.1": {
         "short_suggestion": "<villa> á líklegast að vera með <i>r</i>, <leiðrétt>.",
@@ -4676,7 +4705,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.1"
     },
     "14.4.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>rl</i>, <leiðrétt>.",
@@ -4705,7 +4734,7 @@
             }
         },
         "error_code": "pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.2"
     },
     "14.4.3": {
         "short_suggestion": "<villa> á líklegast að vera með <i>rn</i>, <leiðrétt>.",
@@ -4734,7 +4763,7 @@
             }
         },
         "error_code": "pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.3"
     },
     "15.1": null,
     "15.2 (a)": {
@@ -4764,7 +4793,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.2 (a)"
     },
     "15.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>, líkt og framburður gefur til kynna.",
@@ -4793,7 +4822,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.2 (b)"
     },
     "15.3.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>s</i>, <leiðrétt>.",
@@ -4822,7 +4851,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.1 (a)"
     },
     "15.3.1 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4851,7 +4880,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.1 (b)"
     },
     "15.3.2": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4880,7 +4909,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.2"
     },
     "15.3.3": {
         "short_suggestion": "<villa> er alltaf með einföldu <i>s</i>, <leiðrétt>.",
@@ -4909,7 +4938,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.3"
     },
     "15.3.4": {
         "short_suggestion": "<villa> er alltaf með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4938,7 +4967,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.4"
     },
     "15.4": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4967,7 +4996,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.4"
     },
     "15.5.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -4996,7 +5025,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.1 (a)"
     },
     "15.5.1. (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5025,7 +5054,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.1. (b)"
     },
     "15.5.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5054,7 +5083,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.2 (a)"
     },
     "15.5.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5063,27 +5092,20 @@
             "1": {
                 "original_sentence": "Pabbi segir alltaf að Árnesþing sé fallegasta svæði landsins.",
                 "standardized_sentence": "Pabbi segir alltaf að Árnessþing sé fallegasta svæði landsins.",
-                "suggestion": "<Árnesþing> á líklegast að vera <Árnessþing>.#Ritregludæmi",
+                "suggestion": "<Árnesþing> á líklegast að vera <Árnessþing>.",
                 "original_part": "Árnesþing",
                 "standardized_part": "Árnessþing"
             },
             "2": {
                 "original_sentence": "Athygli vekur að Snæfellsnesprófastsdæmi var ekki þar á lista.",
                 "standardized_sentence": "Athygli vekur að Snæfellsnessprófastsdæmi var ekki þar á lista.",
-                "suggestion": "<Snæfellsnesprófastsdæmi> á líklegast að vera <Snæfellsnessprófastsdæmi>.#Ritregludæmi",
+                "suggestion": "<Snæfellsnesprófastsdæmi> á líklegast að vera <Snæfellsnessprófastsdæmi>.",
                 "original_part": "Snæfellsnesprófastsdæmi",
                 "standardized_part": "Snæfellsnessprófastsdæmi"
-            },
-            "3": {
-                "original_sentence": "",
-                "standardized_sentence": "",
-                "suggestion": "",
-                "original_part": "???",
-                "standardized_part": "???"
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.2 (b)"
     },
     "16.1": {
         "short_suggestion": "<villa> á líklegast að vera með <i>ll</i>, <leiðrétt>.",
@@ -5112,7 +5134,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.1"
     },
     "16.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>nn</i>, <leiðrétt>.",
@@ -5141,7 +5163,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.2"
     },
     "16.3 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með <i>sl</i>, <leiðrétt>.",
@@ -5170,7 +5192,7 @@
             }
         },
         "error_code": "extra-letter/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.3 (a)"
     },
     "16.3 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með <i>sn</i>, <leiðrétt>.",
@@ -5199,7 +5221,7 @@
             }
         },
         "error_code": "extra-letter/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.3 (b)"
     },
     "17.1": null,
     "17.2": {
@@ -5229,7 +5251,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.2"
     },
     "17.3": {
         "short_suggestion": "<villa> á líklegast að vera með <i>k</i>, <leiðrétt>.",
@@ -5258,7 +5280,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.3"
     },
     "17.4": {
         "short_suggestion": "<villa> á líklegast að vera með <i>x</i>, <leiðrétt>.",
@@ -5287,7 +5309,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.4"
     },
     "18.1": null,
     "18.2": null,
@@ -5318,7 +5340,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters/extra-letter/extra-letters/n4nn/nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#18.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/18.3"
     },
     "19.1": null,
     "19.2": {
@@ -5348,7 +5370,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.2"
     },
     "19.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5377,7 +5399,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.3"
     },
     "19.4": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5406,7 +5428,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.4"
     },
     "19.5.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5435,7 +5457,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.1"
     },
     "19.5.2": {
         "short_suggestion": "<villa> á líklegast ekki að vera með <i>t</i>, <leiðrétt>.",
@@ -5464,7 +5486,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.2"
     },
     "19.5.3": {
         "short_suggestion": "<villa> á líklegast að vera eingöngu með <i>st</i>, <leiðrétt>.",
@@ -5493,7 +5515,7 @@
             }
         },
         "error_code": "extra-letter/extra-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.3"
     },
     "19.5.4 a": {
         "short_suggestion": "<villa> á líklegast að vera eingöngu með <i>sk</i>, <leiðrétt>.",
@@ -5522,7 +5544,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.4 a"
     },
     "20.1": null,
     "20.2": {
@@ -5552,7 +5574,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#20.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/20.2"
     },
     "20.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5581,7 +5603,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#20.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/20.3"
     },
     "21.1.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5590,27 +5612,27 @@
             "1": {
                 "original_sentence": "Sumir fengu ís aðrir vildu frekar köku.",
                 "standardized_sentence": "Sumir fengu ís, aðrir vildu frekar köku.",
-                "suggestion": "<Sumir fengu ís aðrir vildu frekar köku.> á líklegast að vera með kommu, <Sumir fengu ís, aðrir vildu frekar köku.>.#Ritregludæmi",
+                "suggestion": "<Sumir fengu ís aðrir vildu frekar köku.> á líklegast að vera með kommu, <Sumir fengu ís, aðrir vildu frekar köku.>.",
                 "original_part": "Sumir fengu ís aðrir vildu frekar köku.",
                 "standardized_part": "Sumir fengu ís, aðrir vildu frekar köku."
             },
             "2": {
                 "original_sentence": "Rúna vann fyrstu skákina gerði svo tvö jafntefli en tapaði fjórðu skákinni.",
                 "standardized_sentence": "Rúna vann fyrstu skákina, gerði svo tvö jafntefli en tapaði fjórðu skákinni.",
-                "suggestion": "<Rúna vann fyrstu skákina> á líklegast að vera með kommu, <Rúna vann fyrstu skákina,>.#Ritregludæmi",
+                "suggestion": "<Rúna vann fyrstu skákina> á líklegast að vera með kommu, <Rúna vann fyrstu skákina,>.",
                 "original_part": "Rúna vann fyrstu skákina",
                 "standardized_part": "Rúna vann fyrstu skákina,"
             },
             "3": {
                 "original_sentence": "Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján hún var hvort eð er miklu flottari.",
                 "standardized_sentence": "Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján, hún var hvort eð er miklu flottari.",
-                "suggestion": "<Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján hún var hvort eð er miklu flottari> á líklegast að vera með kommu, <Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján, hún var hvort eð er miklu flottari>.#essays/verslo-JA3-t1.xml:13",
+                "suggestion": "<Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján hún var hvort eð er miklu flottari> á líklegast að vera með kommu, <Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján, hún var hvort eð er miklu flottari>.",
                 "original_part": "Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján hún var hvort eð er miklu flottari",
                 "standardized_part": "Er ekki miklu sniðugra að skella bara buxunum í þvott núna og kaupa frekar rauðu peysuna í Sautján, hún var hvort eð er miklu flottari"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.1 (a)"
     },
     "21.1.1 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5619,27 +5641,27 @@
             "1": {
                 "original_sentence": "Sumir fengu ís, en aðrir vildu frekar köku.",
                 "standardized_sentence": "Sumir fengu ís en aðrir vildu frekar köku.",
-                "suggestion": "<Sumir fengu ís, en aðrir vildu frekar köku.> á líklegast ekki að vera með kommu, <Sumir fengu ís en aðrir vildu frekar köku.>.#Ritregludæmi",
+                "suggestion": "<Sumir fengu ís, en aðrir vildu frekar köku.> á líklegast ekki að vera með kommu, <Sumir fengu ís en aðrir vildu frekar köku.>.",
                 "original_part": "Sumir fengu ís, en aðrir vildu frekar köku.",
                 "standardized_part": "Sumir fengu ís en aðrir vildu frekar köku."
             },
             "2": {
                 "original_sentence": "Þegar veðrið er gott, líður mér vel.",
                 "standardized_sentence": "Þegar veðrið er gott líður mér vel.",
-                "suggestion": "<Þegar veðrið er gott, líður mér vel.> á líklegast ekki að vera með kommu, <Þegar veðrið er gott líður mér vel.>.#Ritregludæmi",
+                "suggestion": "<Þegar veðrið er gott, líður mér vel.> á líklegast ekki að vera með kommu, <Þegar veðrið er gott líður mér vel.>.",
                 "original_part": "Þegar veðrið er gott, líður mér vel.",
                 "standardized_part": "Þegar veðrið er gott líður mér vel."
             },
             "3": {
                 "original_sentence": "Margt verðmætt má finna í jörðu í Mið-Austurlöndum, og þar er olían þekktust.",
                 "standardized_sentence": "Margt verðmætt má finna í jörðu í Mið-Austurlöndum og þar er olían þekktust.",
-                "suggestion": "<Margt verðmætt má finna í jörðu í Mið-Austurlöndum, og þar er olían þekktust.> á líklegast ekki að vera með kommu, <Margt verðmætt má finna í jörðu í Mið-Austurlöndum og þar er olían þekktust.>.#wikipedia/wikipedia_1_0_300-t14.xml:18",
+                "suggestion": "<Margt verðmætt má finna í jörðu í Mið-Austurlöndum, og þar er olían þekktust.> á líklegast ekki að vera með kommu, <Margt verðmætt má finna í jörðu í Mið-Austurlöndum og þar er olían þekktust.>.",
                 "original_part": "Margt verðmætt má finna í jörðu í Mið-Austurlöndum, og þar er olían þekktust.",
                 "standardized_part": "Margt verðmætt má finna í jörðu í Mið-Austurlöndum og þar er olían þekktust."
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.1 (b)"
     },
     "21.1.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5648,27 +5670,27 @@
             "1": {
                 "original_sentence": "Þetta hús sem var byggt 1920 er elsta húsið við götuna.",
                 "standardized_sentence": "Þetta hús, sem var byggt 1920, er elsta húsið við götuna.",
-                "suggestion": "<Þetta hús sem var byggt 1920 er elsta húsið við götuna.> á líklegast að vera með kommum, <Þetta hús, sem var byggt 1920, er elsta húsið við götuna.>.#Ritregludæmi",
+                "suggestion": "<Þetta hús sem var byggt 1920 er elsta húsið við götuna.> á líklegast að vera með kommum, <Þetta hús, sem var byggt 1920, er elsta húsið við götuna.>.",
                 "original_part": "Þetta hús sem var byggt 1920 er elsta húsið við götuna.",
                 "standardized_part": "Þetta hús, sem var byggt 1920, er elsta húsið við götuna."
             },
             "2": {
                 "original_sentence": "Gunnar sem hafði verið leigubílstjóri í þrjátíu ár lét ekki sitt eftir liggja.",
                 "standardized_sentence": "Gunnar, sem hafði verið leigubílstjóri í þrjátíu ár, lét ekki sitt eftir liggja.",
-                "suggestion": "<Gunnar sem hafði verið leigubílstjóri í þrjátíu ár lét ekki sitt eftir liggja.> á líklegast að vera með kommum, <Gunnar, sem hafði verið leigubílstjóri í þrjátíu ár, lét ekki sitt eftir liggja.>.#Ritregludæmi",
+                "suggestion": "<Gunnar sem hafði verið leigubílstjóri í þrjátíu ár lét ekki sitt eftir liggja.> á líklegast að vera með kommum, <Gunnar, sem hafði verið leigubílstjóri í þrjátíu ár, lét ekki sitt eftir liggja.>.",
                 "original_part": "Gunnar sem hafði verið leigubílstjóri í þrjátíu ár lét ekki sitt eftir liggja.",
                 "standardized_part": "Gunnar, sem hafði verið leigubílstjóri í þrjátíu ár, lét ekki sitt eftir liggja."
             },
             "3": {
                 "original_sentence": "Móðir mín, sem hafði ljóst hár, var systir Bjarna.",
                 "standardized_sentence": "Móðir mín, sem hafði ljóst hár, var systir Bjarna.",
-                "suggestion": "<Móðir mín, sem hafði ljóst hár, var systir Bjarna.> á líklegast að vera með kommum, <Móðir mín, sem hafði ljóst hár, var systir Bjarna.>.#Ritregludæmi",
+                "suggestion": "<Móðir mín, sem hafði ljóst hár, var systir Bjarna.> á líklegast að vera með kommum, <Móðir mín, sem hafði ljóst hár, var systir Bjarna.>.",
                 "original_part": "Móðir mín, sem hafði ljóst hár, var systir Bjarna.",
                 "standardized_part": "Móðir mín, sem hafði ljóst hár, var systir Bjarna."
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.2 (a)"
     },
     "21.1.2 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5677,27 +5699,27 @@
             "1": {
                 "original_sentence": "Sá, sem fæst við erfitt verkefni, verður að leggja hart að sér.",
                 "standardized_sentence": "Sá sem fæst við erfitt verkefni verður að leggja hart að sér.",
-                "suggestion": "<Sá, sem fæst við erfitt verkefni, verður að leggja hart að sér.> á líklegast ekki að vera með kommum, <Sá sem fæst við erfitt verkefni verður að leggja hart að sér.>.#Ritregludæmi",
+                "suggestion": "<Sá, sem fæst við erfitt verkefni, verður að leggja hart að sér.> á líklegast ekki að vera með kommum, <Sá sem fæst við erfitt verkefni verður að leggja hart að sér.>.",
                 "original_part": "Sá, sem fæst við erfitt verkefni, verður að leggja hart að sér.",
                 "standardized_part": "Sá sem fæst við erfitt verkefni verður að leggja hart að sér."
             },
             "2": {
                 "original_sentence": "Allir, sem ég þekki, ætla til Akureyrar í sumar.",
                 "standardized_sentence": "Allir sem ég þekki ætla til Akureyrar í sumar.",
-                "suggestion": "<Allir, sem ég þekki, ætla til Akureyrar í sumar.> á líklegast ekki að vera með kommu, <Allir sem ég þekki ætla til Akureyrar í sumar.>.#Ritregludæmi",
+                "suggestion": "<Allir, sem ég þekki, ætla til Akureyrar í sumar.> á líklegast ekki að vera með kommu, <Allir sem ég þekki ætla til Akureyrar í sumar.>.",
                 "original_part": "Allir, sem ég þekki, ætla til Akureyrar í sumar.",
                 "standardized_part": "Allir sem ég þekki ætla til Akureyrar í sumar."
             },
             "3": {
                 "original_sentence": "Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi, þá má sjá að það hefur skilað misgóðum árangri.",
                 "standardized_sentence": "Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi þá má sjá að það hefur skilað misgóðum árangri.",
-                "suggestion": "<Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi, þá má sjá að það hefur skilað misgóðum árangri> á líklegast ekki að vera með kommu, <Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi þá má sjá að það hefur skilað misgóðum árangri>.#essays/verslo-JAa-t1.xml:21",
+                "suggestion": "<Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi, þá má sjá að það hefur skilað misgóðum árangri> á líklegast ekki að vera með kommu, <Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi þá má sjá að það hefur skilað misgóðum árangri>.",
                 "original_part": "Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi, þá má sjá að það hefur skilað misgóðum árangri",
                 "standardized_part": "Annars staðar á Norðurlöndunum þar sem streymi hefur verið mun meira heldur en á Íslandi þá má sjá að það hefur skilað misgóðum árangri"
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.2 (b)"
     },
     "21.1.3": null,
     "21.2.1": {
@@ -5707,27 +5729,27 @@
             "1": {
                 "original_sentence": "Kórstjórinn okkar hann Egill var veikur í gær.",
                 "standardized_sentence": "Kórstjórinn okkar, hann Egill, var veikur í gær.",
-                "suggestion": "<Kórstjórinn okkar hann Egill var veikur í gær> á líklegast að vera með kommu, <Kórstjórinn okkar, hann Egill, var veikur í gær>.#Ritregludæmi",
+                "suggestion": "<Kórstjórinn okkar hann Egill var veikur í gær> á líklegast að vera með kommu, <Kórstjórinn okkar, hann Egill, var veikur í gær>.",
                 "original_part": "Kórstjórinn okkar hann Egill var veikur í gær",
                 "standardized_part": "Kórstjórinn okkar, hann Egill, var veikur í gær"
             },
             "2": {
                 "original_sentence": "Þarna voru margir meðal annars frændfólk mitt.",
                 "standardized_sentence": "Þarna voru margir, meðal annars frændfólk mitt.",
-                "suggestion": "<Þarna voru margir meðal annars frændfólk mitt.> á líklegast að vera með kommu, <Þarna voru margir, meðal annars frændfólk mitt.>.#wikipedia/wikipedia_1_0_2_12-t12.xml:3",
+                "suggestion": "<Þarna voru margir meðal annars frændfólk mitt.> á líklegast að vera með kommu, <Þarna voru margir, meðal annars frændfólk mitt.>.",
                 "original_part": "Þarna voru margir meðal annars frændfólk mitt.",
                 "standardized_part": "Þarna voru margir, meðal annars frændfólk mitt."
             },
             "3": {
                 "original_sentence": "Faðir John John Ernst Steinbeck eldri vann sem fjársýslumaður í Monterey-sýslu.",
                 "standardized_sentence": "Faðir John, John Ernst Steinbeck eldri, vann sem fjársýslumaður í Monterey-sýslu.",
-                "suggestion": "<Faðir John John Ernst Steinbeck eldri> á líklegast að vera með kommu, <Faðir John, John Ernst Steinbeck eldri,>.#wikipedia/wikipedia_1_0_275-t15.xml:4",
+                "suggestion": "<Faðir John John Ernst Steinbeck eldri> á líklegast að vera með kommu, <Faðir John, John Ernst Steinbeck eldri,>.",
                 "original_part": "Faðir John John Ernst Steinbeck eldri",
                 "standardized_part": "Faðir John, John Ernst Steinbeck eldri,"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.1"
     },
     "21.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>, þar sem þetta er upptalning.",
@@ -5736,27 +5758,27 @@
             "1": {
                 "original_sentence": "Sigrún Jón Emilía og Aron eru systkin.",
                 "standardized_sentence": "Sigrún, Jón, Emilía og Aron eru systkin.",
-                "suggestion": "<Sigrún Jón Emilía og Aron> á líklegast að vera með kommu, <Sigrún, Jón, Emilía og Aron>, þar sem þetta er upptalning.#Ritregludæmi",
+                "suggestion": "<Sigrún Jón Emilía og Aron> á líklegast að vera með kommu, <Sigrún, Jón, Emilía og Aron>, þar sem þetta er upptalning.",
                 "original_part": "Sigrún Jón Emilía og Aron",
                 "standardized_part": "Sigrún, Jón, Emilía og Aron"
             },
             "2": {
                 "original_sentence": "Í veislunni voru sniglar í forrétt nautakjöt í aðalrétt og ís í eftirrétt.",
                 "standardized_sentence": "Í veislunni voru sniglar í forrétt, nautakjöt í aðalrétt og ís í eftirrétt.",
-                "suggestion": "<Í veislunni voru sniglar í forrétt nautakjöt í aðalrétt og ís í eftirrétt.> á líklegast að vera með kommu, <Í veislunni voru sniglar í forrétt, nautakjöt í aðalrétt og ís í eftirrétt.>, þar sem þetta er upptalning.#Ritregludæmi",
+                "suggestion": "<Í veislunni voru sniglar í forrétt nautakjöt í aðalrétt og ís í eftirrétt.> á líklegast að vera með kommu, <Í veislunni voru sniglar í forrétt, nautakjöt í aðalrétt og ís í eftirrétt.>, þar sem þetta er upptalning.",
                 "original_part": "Í veislunni voru sniglar í forrétt nautakjöt í aðalrétt og ís í eftirrétt.",
                 "standardized_part": "Í veislunni voru sniglar í forrétt, nautakjöt í aðalrétt og ís í eftirrétt."
             },
             "3": {
                 "original_sentence": "Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files Charmed Megas XLR The Replacements og Xena: Warrior Princess.",
                 "standardized_sentence": "Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files, Charmed, Megas XLR, The Replacements og Xena: Warrior Princess.",
-                "suggestion": "<Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files Charmed Megas XLR The Replacements og Xena: Warrior Princess> á líklegast að vera með kommu, <Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files, Charmed, Megas XLR, The Replacements og Xena: Warrior Princess>, þar sem þetta er upptalning.#wikipedia/wikipedia_1_0_2_4-t6.xml:32",
+                "suggestion": "<Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files Charmed Megas XLR The Replacements og Xena: Warrior Princess> á líklegast að vera með kommu, <Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files, Charmed, Megas XLR, The Replacements og Xena: Warrior Princess>, þar sem þetta er upptalning.",
                 "original_part": "Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files Charmed Megas XLR The Replacements og Xena: Warrior Princess",
                 "standardized_part": "Hefur hann síðan þá komið fram sem gestaleikari í þáttum á borð við The X-Files, Charmed, Megas XLR, The Replacements og Xena: Warrior Princess"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.2"
     },
     "21.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5765,27 +5787,27 @@
             "1": {
                 "original_sentence": "Þetta er langtum langtum skemmtilegra.",
                 "standardized_sentence": "Þetta er langtum, langtum skemmtilegra.",
-                "suggestion": "<langtum langtum> á líklegast að vera með kommu, <langtum, langtum>.#Ritregludæmi",
+                "suggestion": "<langtum langtum> á líklegast að vera með kommu, <langtum, langtum>.",
                 "original_part": "langtum langtum",
                 "standardized_part": "langtum, langtum"
             },
             "2": {
                 "original_sentence": "Já já, við skulum bara segja það.",
                 "standardized_sentence": "Já, já, við skulum bara segja það.",
-                "suggestion": "<Já já> á líklegast að vera með kommu, <Já, já>.#Ritregludæmi",
+                "suggestion": "<Já já> á líklegast að vera með kommu, <Já, já>.",
                 "original_part": "Já já",
                 "standardized_part": "Já, já"
             },
             "3": {
                 "original_sentence": "Þetta geri ég aldrei aldrei aftur.",
                 "standardized_sentence": "Þetta geri ég aldrei, aldrei aftur.",
-                "suggestion": "<aldrei aldrei aftur> á líklegast að vera með kommu, <aldrei, aldrei aftur>.#Tilbúið",
+                "suggestion": "<aldrei aldrei aftur> á líklegast að vera með kommu, <aldrei, aldrei aftur>.",
                 "original_part": "aldrei aldrei aftur",
                 "standardized_part": "aldrei, aldrei aftur"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.3"
     },
     "21.2.4": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5794,27 +5816,27 @@
             "1": {
                 "original_sentence": "Vá hvað ég var töff.",
                 "standardized_sentence": "Vá, hvað ég var töff.",
-                "suggestion": "<Vá hvað ég var töff.> á líklegast að vera með kommu, <Vá, hvað ég var töff.>.#essays/verslo-JA8-t8.xml:34",
+                "suggestion": "<Vá hvað ég var töff.> á líklegast að vera með kommu, <Vá, hvað ég var töff.>.",
                 "original_part": "Vá hvað ég var töff.",
                 "standardized_part": "Vá, hvað ég var töff."
             },
             "2": {
                 "original_sentence": "Ó farðu þér nú ekki að voða.",
                 "standardized_sentence": "Ó, farðu þér nú ekki að voða.",
-                "suggestion": "<Ó farðu þér nú ekki að voða> á líklegast að vera með kommu, <Ó, farðu þér nú ekki að voða>.#Ritregludæmi",
+                "suggestion": "<Ó farðu þér nú ekki að voða> á líklegast að vera með kommu, <Ó, farðu þér nú ekki að voða>.",
                 "original_part": "Ó farðu þér nú ekki að voða",
                 "standardized_part": "Ó, farðu þér nú ekki að voða"
             },
             "3": {
                 "original_sentence": "Sæl Anna og til hamingju með afmælið.",
                 "standardized_sentence": "Sæl, Anna, og til hamingju með afmælið.",
-                "suggestion": "<Sæl Anna og til hamingju með afmælið> á líklegast að vera með kommu, <Sæl, Anna, og til hamingju með afmælið>.#Ritregludæmi",
+                "suggestion": "<Sæl Anna og til hamingju með afmælið> á líklegast að vera með kommu, <Sæl, Anna, og til hamingju með afmælið>.",
                 "original_part": "Sæl Anna og til hamingju með afmælið",
                 "standardized_part": "Sæl, Anna, og til hamingju með afmælið"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.4"
     },
     "21.2.5 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5823,27 +5845,27 @@
             "1": {
                 "original_sentence": "Á endanum var ég stopp á Esso í Ártúnsbrekkunni og drengurinn stakk hökunni ofan í bringu og muldraði: „Takk fyrir farið og takk kærlega fyrir mig“ eins og hann væri ekki vanur því að fólk gerði honum það mikla góðverk að skutla honum smáspöl.",
                 "standardized_sentence": "Á endanum var ég stopp á Esso í Ártúnsbrekkunni og drengurinn stakk hökunni ofan í bringu og muldraði: „Takk fyrir farið og takk kærlega fyrir mig,“ eins og hann væri ekki vanur því að fólk gerði honum það mikla góðverk að skutla honum smáspöl.",
-                "suggestion": "<mig“> á líklegast að vera með kommu, <mig,“>.#essays/verslo-JA3-t10.xml:22",
+                "suggestion": "<mig“> á líklegast að vera með kommu, <mig,“>.",
                 "original_part": "mig“",
                 "standardized_part": "mig,“"
             },
             "2": {
                 "original_sentence": "„Þetta skil ég vel“ sagði Anna.",
                 "standardized_sentence": "„Þetta skil ég vel,“ sagði Anna.",
-                "suggestion": "<„Þetta skil ég vel“ sagði Anna> á líklegast að vera með kommu, <„Þetta skil ég vel,“ sagði Anna>.#Ritregludæmi",
+                "suggestion": "<„Þetta skil ég vel“ sagði Anna> á líklegast að vera með kommu, <„Þetta skil ég vel,“ sagði Anna>.",
                 "original_part": "„Þetta skil ég vel“ sagði Anna",
                 "standardized_part": "„Þetta skil ég vel,“ sagði Anna"
             },
             "3": {
                 "original_sentence": "„Nú er tíminn“ sagði hann, „til að skipta um rafhlöðu“.",
                 "standardized_sentence": "„Nú er tíminn,“ sagði hann, „til að skipta um rafhlöðu“.",
-                "suggestion": "<„Nú er tíminn“ sagði hann, „til að skipta um rafhlöðu“> á líklegast að vera með kommu, <„Nú er tíminn,“ sagði hann, „til að skipta um rafhlöðu“>.#Ritregludæmi",
+                "suggestion": "<„Nú er tíminn“ sagði hann, „til að skipta um rafhlöðu“> á líklegast að vera með kommu, <„Nú er tíminn,“ sagði hann, „til að skipta um rafhlöðu“>.",
                 "original_part": "„Nú er tíminn“ sagði hann, „til að skipta um rafhlöðu“",
                 "standardized_part": "„Nú er tíminn,“ sagði hann, „til að skipta um rafhlöðu“"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.5 (a)"
     },
     "21.2.5 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5852,27 +5874,27 @@
             "1": {
                 "original_sentence": "„Nonni!,“ kallaði ég þá.",
                 "standardized_sentence": "„Nonni!“ kallaði ég þá.",
-                "suggestion": "<„Nonni!,“> á líklegast ekki að vera með kommu, <„Nonni!“>.#Tilbúið",
+                "suggestion": "<„Nonni!,“> á líklegast ekki að vera með kommu, <„Nonni!“>.",
                 "original_part": "„Nonni!,“",
                 "standardized_part": "„Nonni!“"
             },
             "2": {
                 "original_sentence": "„Þetta er ömurlegt!,“ hrópaði Anna.",
                 "standardized_sentence": "„Þetta er ömurlegt!“ hrópaði Anna.",
-                "suggestion": "<„Þetta er ömurlegt!,“ hrópaði Anna> á líklegast ekki að vera með kommu, <„Þetta er ömurlegt!“ hrópaði Anna>.#Ritregludæmi",
+                "suggestion": "<„Þetta er ömurlegt!,“ hrópaði Anna> á líklegast ekki að vera með kommu, <„Þetta er ömurlegt!“ hrópaði Anna>.",
                 "original_part": "„Þetta er ömurlegt!,“ hrópaði Anna",
                 "standardized_part": "„Þetta er ömurlegt!“ hrópaði Anna"
             },
             "3": {
                 "original_sentence": "„Eruð þið búin að skipta um rafhlöðu?,“ spurði hann.",
                 "standardized_sentence": "„Eruð þið búin að skipta um rafhlöðu?“ spurði hann.",
-                "suggestion": "<rafhlöðu?,“> á líklegast ekki að vera með kommu, <rafhlöðu?“>.#Ritregludæmi",
+                "suggestion": "<rafhlöðu?,“> á líklegast ekki að vera með kommu, <rafhlöðu?“>.",
                 "original_part": "rafhlöðu?,“",
                 "standardized_part": "rafhlöðu?“"
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.5 (b)"
     },
     "21.2.6 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5881,27 +5903,27 @@
             "1": {
                 "original_sentence": "Robert Harley jarl af Oxford og Mortimer samdi um lausn hans gegn því að hann gerðist njósnari.",
                 "standardized_sentence": "Robert Harley, jarl af Oxford og Mortimer, samdi um lausn hans gegn því að hann gerðist njósnari.",
-                "suggestion": "<Robert Harley jarl af Oxford og Mortimer> á líklegast að vera með kommu, <Robert Harley, jarl af Oxford og Mortimer,>.#wikipedia/wikipedia_1_0_175-t11.xml:24",
+                "suggestion": "<Robert Harley jarl af Oxford og Mortimer> á líklegast að vera með kommu, <Robert Harley, jarl af Oxford og Mortimer,>.",
                 "original_part": "Robert Harley jarl af Oxford og Mortimer",
                 "standardized_part": "Robert Harley, jarl af Oxford og Mortimer,"
             },
             "2": {
                 "original_sentence": "Rósa Jónsdóttir forstjóri Sjúkrahússins á Akureyri var í leyfi í fyrra.",
                 "standardized_sentence": "Rósa Jónsdóttir, forstjóri Sjúkrahússins á Akureyri, var í leyfi í fyrra.",
-                "suggestion": "<Rósa Jónsdóttir forstjóri Sjúkrahússins á Akureyri var í leyfi í fyrra> á líklegast að vera með kommu, <Rósa Jónsdóttir, forstjóri Sjúkrahússins á Akureyri, var í leyfi í fyrra>.#Ritregludæmi",
+                "suggestion": "<Rósa Jónsdóttir forstjóri Sjúkrahússins á Akureyri var í leyfi í fyrra> á líklegast að vera með kommu, <Rósa Jónsdóttir, forstjóri Sjúkrahússins á Akureyri, var í leyfi í fyrra>.",
                 "original_part": "Rósa Jónsdóttir forstjóri Sjúkrahússins á Akureyri var í leyfi í fyrra",
                 "standardized_part": "Rósa Jónsdóttir, forstjóri Sjúkrahússins á Akureyri, var í leyfi í fyrra"
             },
             "3": {
                 "original_sentence": "Árið 1845 lést Jónas Hallgrímsson skáld og náttúrufræðingur.",
                 "standardized_sentence": "Árið 1845 lést Jónas Hallgrímsson, skáld og náttúrufræðingur.",
-                "suggestion": "<Jónas Hallgrímsson skáld og náttúrufræðingur> á líklegast að vera með kommu, <Jónas Hallgrímsson, skáld og náttúrufræðingur>.#Ritregludæmi",
+                "suggestion": "<Jónas Hallgrímsson skáld og náttúrufræðingur> á líklegast að vera með kommu, <Jónas Hallgrímsson, skáld og náttúrufræðingur>.",
                 "original_part": "Jónas Hallgrímsson skáld og náttúrufræðingur",
                 "standardized_part": "Jónas Hallgrímsson, skáld og náttúrufræðingur"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.6 (a)"
     },
     "21.2.6 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5910,27 +5932,27 @@
             "1": {
                 "original_sentence": "Össur Skarphéðinsson, alþingismaður, varð ritstjóri.",
                 "standardized_sentence": "Össur Skarphéðinsson alþingismaður varð ritstjóri.",
-                "suggestion": "<Össur Skarphéðinsson, alþingismaður,> á líklegast ekki að vera með kommu, <Össur Skarphéðinsson alþingismaður>.#wikipedia/wikipedia_1_1_1_18-t11.xml:24",
+                "suggestion": "<Össur Skarphéðinsson, alþingismaður,> á líklegast ekki að vera með kommu, <Össur Skarphéðinsson alþingismaður>.",
                 "original_part": "Össur Skarphéðinsson, alþingismaður,",
                 "standardized_part": "Össur Skarphéðinsson alþingismaður"
             },
             "2": {
                 "original_sentence": "Agnes M. Sigurðardóttir, biskup Íslands, vígði kirkjuna.",
                 "standardized_sentence": "Agnes M. Sigurðardóttir biskup Íslands vígði kirkjuna.",
-                "suggestion": "<Agnes M. Sigurðardóttir, biskup Íslands, vígði kirkjuna> á líklegast ekki að vera með kommu, <Agnes M. Sigurðardóttir biskup Íslands vígði kirkjuna>.#Ritregludæmi",
+                "suggestion": "<Agnes M. Sigurðardóttir, biskup Íslands, vígði kirkjuna> á líklegast ekki að vera með kommu, <Agnes M. Sigurðardóttir biskup Íslands vígði kirkjuna>.",
                 "original_part": "Agnes M. Sigurðardóttir, biskup Íslands, vígði kirkjuna",
                 "standardized_part": "Agnes M. Sigurðardóttir biskup Íslands vígði kirkjuna"
             },
             "3": {
                 "original_sentence": "Jói, frændi okkar, kom í veisluna.",
                 "standardized_sentence": "Jói frændi okkar kom í veisluna.",
-                "suggestion": "<Jói, frændi okkar,> á líklegast ekki að vera með kommu, <Jói frændi okkar>.#Ritregludæmi",
+                "suggestion": "<Jói, frændi okkar,> á líklegast ekki að vera með kommu, <Jói frændi okkar>.",
                 "original_part": "Jói, frændi okkar,",
                 "standardized_part": "Jói frændi okkar"
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.6 (b)"
     },
     "21.2.7": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5939,27 +5961,27 @@
             "1": {
                 "original_sentence": "Þetta er góð, gerilsneydd mjólk.",
                 "standardized_sentence": "Þetta er góð gerilsneydd mjólk.",
-                "suggestion": "<góð, gerilsneydd mjólk> á líklegast ekki að vera með kommu, <góð gerilsneydd mjólk>.#Ritregludæmi",
+                "suggestion": "<góð, gerilsneydd mjólk> á líklegast ekki að vera með kommu, <góð gerilsneydd mjólk>.",
                 "original_part": "góð, gerilsneydd mjólk",
                 "standardized_part": "góð gerilsneydd mjólk"
             },
             "2": {
                 "original_sentence": "Hann keypti íslensk, ríkistryggð skuldabréf.",
                 "standardized_sentence": "Hann keypti íslensk ríkistryggð skuldabréf.",
-                "suggestion": "<Hann keypti íslensk, ríkistryggð skuldabréf> á líklegast ekki að vera með kommu, <Hann keypti íslensk ríkistryggð skuldabréf>.#Ritregludæmi",
+                "suggestion": "<Hann keypti íslensk, ríkistryggð skuldabréf> á líklegast ekki að vera með kommu, <Hann keypti íslensk ríkistryggð skuldabréf>.",
                 "original_part": "Hann keypti íslensk, ríkistryggð skuldabréf",
                 "standardized_part": "Hann keypti íslensk ríkistryggð skuldabréf"
             },
             "3": {
                 "original_sentence": "Mig langar ekki í kaldar, franskar kartöflur.",
                 "standardized_sentence": "Mig langar ekki í kaldar franskar kartöflur.",
-                "suggestion": "<kaldar, franskar kartöflur> á líklegast ekki að vera með kommu, <kaldar franskar kartöflur>.#Tilbúið",
+                "suggestion": "<kaldar, franskar kartöflur> á líklegast ekki að vera með kommu, <kaldar franskar kartöflur>.",
                 "original_part": "kaldar, franskar kartöflur",
                 "standardized_part": "kaldar franskar kartöflur"
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.7"
     },
     "21.2.8": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5968,27 +5990,27 @@
             "1": {
                 "original_sentence": "Kílóið er á 29.95 kr.",
                 "standardized_sentence": "Kílóið er á 29,95 kr.",
-                "suggestion": "<29.95> á líklegast að vera með kommu, <29,95>.#Ritregludæmi",
+                "suggestion": "<29.95> á líklegast að vera með kommu, <29,95>.",
                 "original_part": "29.95",
                 "standardized_part": "29,95"
             },
             "2": {
                 "original_sentence": "Pí er u.þ.b. 3.14.",
                 "standardized_sentence": "Pí er u.þ.b. 3,14.",
-                "suggestion": "<3.14> á líklegast að vera með kommu, <3,14>.#Ritregludæmi",
+                "suggestion": "<3.14> á líklegast að vera með kommu, <3,14>.",
                 "original_part": "3.14",
                 "standardized_part": "3,14"
             },
             "3": {
                 "original_sentence": "Einn deilt með fjórum er 0.25.",
                 "standardized_sentence": "Einn deilt með fjórum er 0,25.",
-                "suggestion": "<0.25> á líklegast að vera með kommu, <0,25>.#Ritregludæmi",
+                "suggestion": "<0.25> á líklegast að vera með kommu, <0,25>.",
                 "original_part": "0.25",
                 "standardized_part": "0,25"
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.8"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.8"
     },
     "22.1": {
         "short_suggestion": "<villa> á líklegast að vera með punkti þar sem málsgrein lýkur, <leiðrétt>.",
@@ -5997,27 +6019,27 @@
             "1": {
                 "original_sentence": "Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast",
                 "standardized_sentence": "Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast.",
-                "suggestion": "<Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast> á líklegast að vera með punkti, <Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast.>, þar sem málsgrein lýkur.#wikipedia/wikipedia_1_1_1_10-t3.xml:41b",
+                "suggestion": "<Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast> á líklegast að vera með punkti, <Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast.>, þar sem málsgrein lýkur.",
                 "original_part": "Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast",
                 "standardized_part": "Búið er að skipta kvótanum á milli útgerða eftir veiðireynslu þannig að í framtíðinni mun veiðitímabilið lengjast og verðmætið aukast."
             },
             "2": {
                 "original_sentence": "Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf",
                 "standardized_sentence": "Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf.",
-                "suggestion": "<Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf> á líklegast að vera með punkti, <Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf.>, þar sem málsgrein lýkur.#wikipedia/wikipedia_1_0_300-t14.xml:414",
+                "suggestion": "<Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf> á líklegast að vera með punkti, <Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf.>, þar sem málsgrein lýkur.",
                 "original_part": "Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf",
                 "standardized_part": "Konungsríkið Sádí-Arabía er einræðisríki sem gengur í arf."
             },
             "3": {
                 "original_sentence": "HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram",
                 "standardized_sentence": "HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram.",
-                "suggestion": "<HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram> á líklegast að vera með punkti, <HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram.>, þar sem málsgrein lýkur.#wikipedia/wikipedia_1_0_2_4-t0.xml:6",
+                "suggestion": "<HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram> á líklegast að vera með punkti, <HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram.>, þar sem málsgrein lýkur.",
                 "original_part": "HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram",
                 "standardized_part": "HK sigraði í 2. deild og fór upp í 1. deild ásamt Fram."
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.1"
     },
     "22.2": {
         "short_suggestion": "<villa> á líklegast að vera með punkti á eftir raðtölustaf, <leiðrétt>.",
@@ -6026,27 +6048,27 @@
             "1": {
                 "original_sentence": "Henni svipaði mjög til annara annarra sena sem höfðu verið í gangi í Bretlandi á 7, 8. og 9. áratugunum.",
                 "standardized_sentence": "Henni svipaði mjög til annara annarra sena sem höfðu verið í gangi í Bretlandi á 7., 8. og 9. áratugunum.",
-                "suggestion": "<7,> á líklegast að vera með punkti á eftir raðtölustaf, <7.,>.#wikipedia/wikipedia_1_1_2_1-t3.xml:57-BREYTT",
+                "suggestion": "<7,> á líklegast að vera með punkti á eftir raðtölustaf, <7.,>.",
                 "original_part": "7,",
                 "standardized_part": "7.,"
             },
             "2": {
                 "original_sentence": "Guðrún er í 2 bekk.",
                 "standardized_sentence": "Guðrún er í 2. bekk.",
-                "suggestion": "<2 bekk> á líklegast að vera með punkti á eftir raðtölustaf, <2. bekk>.#Ritregludæmi",
+                "suggestion": "<2 bekk> á líklegast að vera með punkti á eftir raðtölustaf, <2. bekk>.",
                 "original_part": "2 bekk",
                 "standardized_part": "2. bekk"
             },
             "3": {
                 "original_sentence": "Á blaðsíðu 16 hefst 3 kafli.",
                 "standardized_sentence": "Á blaðsíðu 16 hefst 3. kafli.",
-                "suggestion": "<Á blaðsíðu 16 hefst 3 kafli> á líklegast að vera með punkti á eftir raðtölustaf, <Á blaðsíðu 16 hefst 3. kafli>.#Ritregludæmi",
+                "suggestion": "<Á blaðsíðu 16 hefst 3 kafli> á líklegast að vera með punkti á eftir raðtölustaf, <Á blaðsíðu 16 hefst 3. kafli>.",
                 "original_part": "Á blaðsíðu 16 hefst 3 kafli",
                 "standardized_part": "Á blaðsíðu 16 hefst 3. kafli"
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.2"
     },
     "22.3 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með einum punkti, <leiðrétt>.",
@@ -6055,27 +6077,27 @@
             "1": {
                 "original_sentence": "Hann greiddi henni 100 kr..",
                 "standardized_sentence": "Hann greiddi henni 100 kr.",
-                "suggestion": "<Hann greiddi henni 100 kr..> á líklegast að vera með einum punkti, <Hann greiddi henni 100 kr.>.#Ritregludæmi",
+                "suggestion": "<Hann greiddi henni 100 kr..> á líklegast að vera með einum punkti, <Hann greiddi henni 100 kr.>.",
                 "original_part": "Hann greiddi henni 100 kr..",
                 "standardized_part": "Hann greiddi henni 100 kr."
             },
             "2": {
                 "original_sentence": "Þetta gerðist einhvern tíma í febrúar, líklega 22..",
                 "standardized_sentence": "Þetta gerðist einhvern tíma í febrúar, líklega 22.",
-                "suggestion": "<22..> á líklegast að vera með einum punkti, <22.>.#Ritregludæmi",
+                "suggestion": "<22..> á líklegast að vera með einum punkti, <22.>.",
                 "original_part": "22..",
                 "standardized_part": "22."
             },
             "3": {
                 "original_sentence": "Elísabet var dóttir Hinriks VIII..",
                 "standardized_sentence": "Elísabet var dóttir Hinriks VIII.",
-                "suggestion": "<Hinriks VIII..> á líklegast að vera með einum punkti, <Hinriks VIII.>.#Ritregludæmi",
+                "suggestion": "<Hinriks VIII..> á líklegast að vera með einum punkti, <Hinriks VIII.>.",
                 "original_part": "Hinriks VIII..",
                 "standardized_part": "Hinriks VIII."
             }
         },
         "error_code": "extra-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.3 (a)"
     },
     "22.3 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6084,27 +6106,27 @@
             "1": {
                 "original_sentence": "Hún keypti mat fyrir 500 kr: mjólk og jógúrt.",
                 "standardized_sentence": "Hún keypti mat fyrir 500 kr.: mjólk og jógúrt.",
-                "suggestion": "<Hún keypti mat fyrir 500 kr: mjólk og jógúrt> á líklegast að vera með punkti, <Hún keypti mat fyrir 500 kr.: mjólk og jógúrt>.#Ritregludæmi",
+                "suggestion": "<Hún keypti mat fyrir 500 kr: mjólk og jógúrt> á líklegast að vera með punkti, <Hún keypti mat fyrir 500 kr.: mjólk og jógúrt>.",
                 "original_part": "Hún keypti mat fyrir 500 kr: mjólk og jógúrt",
                 "standardized_part": "Hún keypti mat fyrir 500 kr.: mjólk og jógúrt"
             },
             "2": {
                 "original_sentence": "Hún fékk 500 kr; peningurinn fór í mat.",
                 "standardized_sentence": "Hún fékk 500 kr.; peningurinn fór í mat.",
-                "suggestion": "<kr> á líklegast að vera með punkti, <kr.>.#Ritregludæmi",
+                "suggestion": "<kr> á líklegast að vera með punkti, <kr.>.",
                 "original_part": "kr",
                 "standardized_part": "kr."
             },
             "3": {
                 "original_sentence": "Var Elísabet I. dóttir Hinriks Hinriks VIII?",
                 "standardized_sentence": "Var Elísabet I. dóttir Hinriks VIII.?",
-                "suggestion": "<Hinriks VIII> á líklegast að vera með punkti, <VIII.>.#Ritregludæmi",
+                "suggestion": "<Hinriks VIII> á líklegast að vera með punkti, <VIII.>.",
                 "original_part": "Hinriks VIII",
                 "standardized_part": "VIII."
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.3 (b)"
     },
     "22.4": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6113,27 +6135,27 @@
             "1": {
                 "original_sentence": "14000 manns rituðu nafn sitt á undirskriftalistann.",
                 "standardized_sentence": "14.000 manns rituðu nafn sitt á undirskriftalistann.",
-                "suggestion": "<14000 manns rituðu nafn sitt á undirskriftalistann> á líklegast að vera með punkti, <14.000 manns rituðu nafn sitt á undirskriftalistann>.#Ritregludæmi",
+                "suggestion": "<14000 manns rituðu nafn sitt á undirskriftalistann> á líklegast að vera með punkti, <14.000 manns rituðu nafn sitt á undirskriftalistann>.",
                 "original_part": "14000 manns rituðu nafn sitt á undirskriftalistann",
                 "standardized_part": "14.000 manns rituðu nafn sitt á undirskriftalistann"
             },
             "2": {
                 "original_sentence": "Sólin er að meðaltali 149500000 km frá jörðu.",
                 "standardized_sentence": "Sólin er að meðaltali 149.500.000 km frá jörðu.",
-                "suggestion": "<149500000> á líklegast að vera með punkti, <149.500.000>.#Ritregludæmi",
+                "suggestion": "<149500000> á líklegast að vera með punkti, <149.500.000>.",
                 "original_part": "149500000",
                 "standardized_part": "149.500.000"
             },
             "3": {
                 "original_sentence": "Næsti fundur verður 14.12,2017.",
                 "standardized_sentence": "Næsti fundur verður 14.12.2017.",
-                "suggestion": "<14.12,2017> á líklegast að vera með punkti, <14.12.2017>.#Ritregludæmi",
+                "suggestion": "<14.12,2017> á líklegast að vera með punkti, <14.12.2017>.",
                 "original_part": "14.12,2017",
                 "standardized_part": "14.12.2017"
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.4"
     },
     "22.5": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6142,27 +6164,27 @@
             "1": {
                 "original_sentence": "Ég var vakinn á slaginu kl. 2,45 eins og til stóð.",
                 "standardized_sentence": "Ég var vakinn á slaginu kl. 2.45 eins og til stóð.",
-                "suggestion": "<kl. 2,45 > á líklegast að vera með punkti, <kl. 2.45 >.#Ritregludæmi",
+                "suggestion": "<kl. 2,45 > á líklegast að vera með punkti, <kl. 2.45 >.",
                 "original_part": "kl. 2,45 ",
                 "standardized_part": "kl. 2.45 "
             },
             "2": {
                 "original_sentence": "Leikurinn verður kl. 18-30.",
                 "standardized_sentence": "Leikurinn verður kl. 18.30.",
-                "suggestion": "<18-30> á líklegast að vera með punkti, <18.30>.#Ritregludæmi",
+                "suggestion": "<18-30> á líklegast að vera með punkti, <18.30>.",
                 "original_part": "18-30",
                 "standardized_part": "18.30"
             },
             "3": {
                 "original_sentence": "Kl. 12,45 fórum við í mat.",
                 "standardized_sentence": "Kl. 12.45 fórum við í mat.",
-                "suggestion": "<12,45> á líklegast að vera með punkti, <12.45>.#Tilbúið",
+                "suggestion": "<12,45> á líklegast að vera með punkti, <12.45>.",
                 "original_part": "12,45",
                 "standardized_part": "12.45"
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.5"
     },
     "22.6 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6178,20 +6200,20 @@
             "2": {
                 "original_sentence": "Þetta á við um hámenntað fólk, þ.e. kennara, prófessora osfrv",
                 "standardized_sentence": "Þetta á við um hámenntað fólk, þ.e. kennara, prófessora o.s.frv.",
-                "suggestion": "<osfrv> á líklegast að vera <o.s.frv.>.#Ritregludæmi",
+                "suggestion": "<osfrv> á líklegast að vera <o.s.frv.>.",
                 "original_part": "osfrv",
                 "standardized_part": "o.s.frv."
             },
             "3": {
                 "original_sentence": "Framkvæmdirnar eiga að kosta 10 ma kr hið minnsta.",
                 "standardized_sentence": "Framkvæmdirnar eiga að kosta 10 ma.kr. hið minnsta.",
-                "suggestion": "<ma kr> á líklegast að vera <ma.kr.>.#Ritregludæmi",
+                "suggestion": "<ma kr> á líklegast að vera <ma.kr.>.",
                 "original_part": "ma kr",
                 "standardized_part": "ma.kr."
             }
         },
         "error_code": "missing-period/abbreviation-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.6 (a)"
     },
     "22.6 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6200,27 +6222,27 @@
             "1": {
                 "original_sentence": "Félagið heitir Nemendafélag Verzlunarskóla Íslands, skammstafað N.F.V.Í.",
                 "standardized_sentence": "Félagið heitir Nemendafélag Verzlunarskóla Íslands, skammstafað NFVÍ.",
-                "suggestion": "<N.F.V.Í.> á líklegast að vera <NFVÍ>.#wikipedia/wikipedia_1_0_2_4-t4.xml:46",
+                "suggestion": "<N.F.V.Í.> á líklegast að vera <NFVÍ>.",
                 "original_part": "N.F.V.Í.",
                 "standardized_part": "NFVÍ."
             },
             "2": {
                 "original_sentence": "Hann var í rauninni frá R.vík en það vissi hún ekki.",
                 "standardized_sentence": "Hann var í rauninni frá Rvík en það vissi hún ekki.",
-                "suggestion": "<R.vík> á líklegast að vera <Rvík>.#Ritregludæmi",
+                "suggestion": "<R.vík> á líklegast að vera <Rvík>.",
                 "original_part": "R.vík",
                 "standardized_part": "Rvík"
             },
             "3": {
                 "original_sentence": "Getur þú lagt inn pöntun fyrir 100 kg. af sementi?",
                 "standardized_sentence": "Getur þú lagt inn pöntun fyrir 100 kg af sementi?",
-                "suggestion": "<kg.> á líklegast að vera <kg>.#Ritregludæmi",
+                "suggestion": "<kg.> á líklegast að vera <kg>.",
                 "original_part": "kg.",
                 "standardized_part": "kg"
             }
         },
         "error_code": "extra-period/abbreviation-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.6 (b)"
     },
     "23.1": null,
     "23.2": {
@@ -6230,14 +6252,14 @@
             "1": {
                 "original_sentence": "Verslunin selur ýmiss konar vörur: pappír, ritföng, sígarettur, vindla, neftóbak, sápur, ilmvötn og aðra hreinlætisvöru.",
                 "standardized_sentence": "Verslunin selur ýmiss konar vörur: pappír, ritföng; sígarettur, vindla, neftóbak; sápur, ilmvötn og aðra hreinlætisvöru.",
-                "suggestion": "<Verslunin selur ýmiss konar vörur: pappír, ritföng, sígarettur, vindla, neftóbak, sápur, ilmvötn og aðra hreinlætisvöru.> á líklega að vera með semikommu, <Verslunin selur ýmiss konar vörur: pappír, ritföng; sígarettur, vindla, neftóbak; sápur, ilmvötn og aðra hreinlætisvöru.>.#Ritregludæmi",
+                "suggestion": "<Verslunin selur ýmiss konar vörur: pappír, ritföng, sígarettur, vindla, neftóbak, sápur, ilmvötn og aðra hreinlætisvöru.> á líklega að vera með semikommu, <Verslunin selur ýmiss konar vörur: pappír, ritföng; sígarettur, vindla, neftóbak; sápur, ilmvötn og aðra hreinlætisvöru.>.",
                 "original_part": "Verslunin selur ýmiss konar vörur: pappír, ritföng, sígarettur, vindla, neftóbak, sápur, ilmvötn og aðra hreinlætisvöru.",
                 "standardized_part": "Verslunin selur ýmiss konar vörur: pappír, ritföng; sígarettur, vindla, neftóbak; sápur, ilmvötn og aðra hreinlætisvöru."
             },
             "2": {
                 "original_sentence": "Hiti sjúklingsins var 39,6, 38,7, 37,9, 36,9.",
                 "standardized_sentence": "Hiti sjúklingsins var 39,6; 38,7; 37,9; 36,9.",
-                "suggestion": "<39,6, 38,7, 37,9, 36,9.> á líklegast að vera með semikommu, <39,6; 38,7; 37,9; 36,9.>.#Ritregludæmi",
+                "suggestion": "<39,6, 38,7, 37,9, 36,9.> á líklegast að vera með semikommu, <39,6; 38,7; 37,9; 36,9.>.",
                 "original_part": "39,6, 38,7, 37,9, 36,9.",
                 "standardized_part": "39,6; 38,7; 37,9; 36,9."
             },
@@ -6250,7 +6272,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#23.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/23.2"
     },
     "24.1": {
         "short_suggestion": "<villa> á líklega að vera með skástriki, <leiðrétt>.",
@@ -6259,27 +6281,27 @@
             "1": {
                 "original_sentence": "Tillagan var samþykkt með 3-4 atkvæða.",
                 "standardized_sentence": "Tillagan var samþykkt með 3/4 atkvæða.",
-                "suggestion": "<Tillagan var samþykkt með 3-4 atkvæða> á líklega að vera með skástriki, <Tillagan var samþykkt með 3/4 atkvæða>.#Ritregludæmi",
+                "suggestion": "<Tillagan var samþykkt með 3-4 atkvæða> á líklega að vera með skástriki, <Tillagan var samþykkt með 3/4 atkvæða>.",
                 "original_part": "Tillagan var samþykkt með 3-4 atkvæða",
                 "standardized_part": "Tillagan var samþykkt með 3/4 atkvæða"
             },
             "2": {
                 "original_sentence": "Ljóshraði er u.þ.b. 300.000 km sek.",
                 "standardized_sentence": "Ljóshraði er u.þ.b. 300.000 km/sek.",
-                "suggestion": "<km sek.> á líklega að vera með skástriki, <km/sek.>.#Ritregludæmi",
+                "suggestion": "<km sek.> á líklega að vera með skástriki, <km/sek.>.",
                 "original_part": "km sek.",
                 "standardized_part": "km/sek."
             },
             "3": {
                 "original_sentence": "Þetta er já nei-spurning.",
                 "standardized_sentence": "Þetta er já/nei-spurning.",
-                "suggestion": "<já nei-spurning> á líklega að vera með skástriki, <já/nei-spurning>.#Ritregludæmi",
+                "suggestion": "<já nei-spurning> á líklega að vera með skástriki, <já/nei-spurning>.",
                 "original_part": "já nei-spurning",
                 "standardized_part": "já/nei-spurning"
             }
         },
         "error_code": "missing-slash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#24.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/24.1"
     },
     "24.2": {
         "short_suggestion": "<villa> á líklega að vera með skástriki og bili, <leiðrétt>.",
@@ -6288,27 +6310,27 @@
             "1": {
                 "original_sentence": "Útgáfustaður er London/New York.",
                 "standardized_sentence": "Útgáfustaður er London / New York.",
-                "suggestion": "<London/New York> á líklega að vera með skástriki og bili, <London / New York>.#Ritregludæmi",
+                "suggestion": "<London/New York> á líklega að vera með skástriki og bili, <London / New York>.",
                 "original_part": "London/New York",
                 "standardized_part": "London / New York"
             },
             "2": {
                 "original_sentence": "Svo þarf að velja salat/franskar kartöflur.",
                 "standardized_sentence": "Svo þarf að velja salat / franskar kartöflur.",
-                "suggestion": "<salat/franskar kartöflur> á líklega að vera með skástriki og bili, <salat / franskar kartöflur>.#Tilbúið",
+                "suggestion": "<salat/franskar kartöflur> á líklega að vera með skástriki og bili, <salat / franskar kartöflur>.",
                 "original_part": "salat/franskar kartöflur",
                 "standardized_part": "salat / franskar kartöflur"
             },
             "3": {
                 "original_sentence": "Útgefandi er Háskóli Íslands/Árnastofnun.",
                 "standardized_sentence": "Útgefandi er Háskóli Íslands / Árnastofnun.",
-                "suggestion": "<Háskóli Íslands/Árnastofnun> á líklega að vera með skástriki og bili, <Háskóli Íslands / Árnastofnun>.#Tilbúið",
+                "suggestion": "<Háskóli Íslands/Árnastofnun> á líklega að vera með skástriki og bili, <Háskóli Íslands / Árnastofnun>.",
                 "original_part": "Háskóli Íslands/Árnastofnun",
                 "standardized_part": "Háskóli Íslands / Árnastofnun"
             }
         },
         "error_code": "missing-slash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#24.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/24.2"
     },
     "25.1": {
         "short_suggestion": "<villa> á líklega að vera með spurningarmerki, <leiðrétt>.",
@@ -6317,27 +6339,27 @@
             "1": {
                 "original_sentence": "Kannski er bara best að ég taki mér frí og hugsi þetta en er ég þá ekki að fresta einhverju vandamáli sem verður ekkert auðveldara að leysa eftir ár.",
                 "standardized_sentence": "Kannski er bara best að ég taki mér frí og hugsi þetta en er ég þá ekki að fresta einhverju vandamáli sem verður ekkert auðveldara að leysa eftir ár?",
-                "suggestion": "<að leysa eftir ár.> á líklega að vera með spurningarmerki, <að leysa eftir ár?>.#essays/verslo-JA2-t12.xml:23",
+                "suggestion": "<að leysa eftir ár.> á líklega að vera með spurningarmerki, <að leysa eftir ár?>.",
                 "original_part": "að leysa eftir ár.",
                 "standardized_part": "að leysa eftir ár?"
             },
             "2": {
                 "original_sentence": "Hvað er frétt og hvað ekki.",
                 "standardized_sentence": "Hvað er frétt og hvað ekki?",
-                "suggestion": "<Hvað er frétt og hvað ekki.> á líklega að vera með spurningarmerki, <Hvað er frétt og hvað ekki?>.#essays/verslo-JA4-t2.xml:24",
+                "suggestion": "<Hvað er frétt og hvað ekki.> á líklega að vera með spurningarmerki, <Hvað er frétt og hvað ekki?>.",
                 "original_part": "Hvað er frétt og hvað ekki.",
-                "standardized_part": "???"
+                "standardized_part": "Hvað er frétt og hvað ekki."
             },
             "3": {
                 "original_sentence": "Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir.",
                 "standardized_sentence": "Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir?",
-                "suggestion": "<Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir.> á líklega að vera með spurningarmerki, <Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir?>.#essays/verslo-JA5-t15.xml:25",
+                "suggestion": "<Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir.> á líklega að vera með spurningarmerki, <Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir?>.",
                 "original_part": "Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir.",
-                "standardized_part": "???"
+                "standardized_part": "Er það bara ekki alveg réttlátt að þjóðfélagið sjái og viti hverjir þetta eru sem eru hættulegir?"
             }
         },
         "error_code": "missing-qm/comma4qm/period4qm/conjunction4qm",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#25.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/25.1"
     },
     "25.2": null,
     "26.1.1": {
@@ -6367,7 +6389,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.1"
     },
     "26.1.2": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6396,7 +6418,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.2"
     },
     "26.1.3": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6425,7 +6447,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.3"
     },
     "26.1.4": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6454,7 +6476,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.4"
     },
     "26.1.5": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6483,7 +6505,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.5"
     },
     "26.1.6": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6512,7 +6534,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.6"
     },
     "26.1.7": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6541,7 +6563,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.7"
     },
     "26.1.8": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6570,7 +6592,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.8"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.8"
     },
     "26.2.1": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6579,27 +6601,27 @@
             "1": {
                 "original_sentence": "Á þessum víðáttum snýst sumarið um að draga björg í bú fyrir ískaldan vetur því frostið getur farið niður fyrir 65 gráður.",
                 "standardized_sentence": "Á þessum víðáttum snýst sumarið um að draga björg í bú fyrir ískaldan vetur því frostið getur farið niður fyrir –65 gráður.",
-                "suggestion": "<65 gráður> á líklegast að vera með millistriki, <–65 gráður>.#wikipedia/wikipedia_1_0_2_6-t3.xml:1",
+                "suggestion": "<65 gráður> á líklegast að vera með millistriki, <–65 gráður>.",
                 "original_part": "65 gráður",
                 "standardized_part": "–65 gráður"
             },
             "2": {
                 "original_sentence": "Hann var umdæmisstjóri ÞSSÍ í Malaví 2008- 2012.",
                 "standardized_sentence": "Hann var umdæmisstjóri ÞSSÍ í Malaví 2008–2012.",
-                "suggestion": "<2008- 2012> á líklegast að vera með millistriki, <2008–2012>.#wikipedia/wikipedia_1_0_25-t8.xml:8",
+                "suggestion": "<2008- 2012> á líklegast að vera með millistriki, <2008–2012>.",
                 "original_part": "2008- 2012",
                 "standardized_part": "2008–2012"
             },
             "3": {
                 "original_sentence": "Hún verður tvo þrjá mánuði í burtu.",
                 "standardized_sentence": "Hún verður tvo–þrjá mánuði í burtu.",
-                "suggestion": "<tvo þrjá> á líklegast að vera með millistriki, <tvo–þrjá>.#Ritregludæmi",
+                "suggestion": "<tvo þrjá> á líklegast að vera með millistriki, <tvo–þrjá>.",
                 "original_part": "tvo þrjá",
                 "standardized_part": "tvo–þrjá"
             }
         },
         "error_code": "missing-endash/word4endash/hyphen4endash/emdash4endash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.1"
     },
     "26.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6608,27 +6630,27 @@
             "1": {
                 "original_sentence": "23 - 15 = 8",
                 "standardized_sentence": "23 – 15 = 8",
-                "suggestion": "<23 - 15 = 8> á líklegast að vera með millistriki, <23 – 15 = 8>.#Ritregludæmi",
+                "suggestion": "<23 - 15 = 8> á líklegast að vera með millistriki, <23 – 15 = 8>.",
                 "original_part": "23 - 15 = 8",
                 "standardized_part": "23 – 15 = 8"
             },
             "2": {
                 "original_sentence": "Ég var með borð í Landsbókasafni - Háskólabókasafni..",
                 "standardized_sentence": "Ég var með borð í Landsbókasafni – Háskólabókasafni.",
-                "suggestion": "<Landsbókasafni - Háskólabókasafni.> á líklegast að vera með millistriki, <Landsbókasafni – Háskólabókasafni>.#Ritregludæmi",
+                "suggestion": "<Landsbókasafni - Háskólabókasafni.> á líklegast að vera með millistriki, <Landsbókasafni – Háskólabókasafni>.",
                 "original_part": "Landsbókasafni - Háskólabókasafni.",
                 "standardized_part": "Landsbókasafni – Háskólabókasafni"
             },
             "3": {
                 "original_sentence": "Hveragerði - vin skáldanna.",
                 "standardized_sentence": "Hveragerði – vin skáldanna.",
-                "suggestion": "<Hveragerði - vin skáldanna> á líklegast að vera með millistriki, <Hveragerði – vin skáldanna>.#Ritregludæmi",
+                "suggestion": "<Hveragerði - vin skáldanna> á líklegast að vera með millistriki, <Hveragerði – vin skáldanna>.",
                 "original_part": "Hveragerði - vin skáldanna",
                 "standardized_part": "Hveragerði – vin skáldanna"
             }
         },
-        "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.2"
+        "error_code": "missing-endash/word4endash/hyphen4endash/emdash4endash",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.2"
     },
     "26.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6637,14 +6659,14 @@
             "1": {
                 "original_sentence": "Á Íslandi - og hvergi nema á Íslandi - er þetta náttúrufyrirbæri að finna.",
                 "standardized_sentence": "Á Íslandi – og hvergi nema á Íslandi – er þetta náttúrufyrirbæri að finna.",
-                "suggestion": "<Á Íslandi - og hvergi nema á Íslandi - er þetta náttúrufyrirbæri að finna.> á líklegast að vera með þankastriki, <Á Íslandi – og hvergi nema á Íslandi – er þetta náttúrufyrirbæri að finna.>.#Ritregludæmi",
+                "suggestion": "<Á Íslandi - og hvergi nema á Íslandi - er þetta náttúrufyrirbæri að finna.> á líklegast að vera með þankastriki, <Á Íslandi – og hvergi nema á Íslandi – er þetta náttúrufyrirbæri að finna.>.",
                 "original_part": "Á Íslandi - og hvergi nema á Íslandi - er þetta náttúrufyrirbæri að finna.",
                 "standardized_part": "Á Íslandi – og hvergi nema á Íslandi – er þetta náttúrufyrirbæri að finna."
             },
             "2": {
                 "original_sentence": "Mér líkaði vel við hann - oftast.",
                 "standardized_sentence": "Mér líkaði vel við hann – oftast.",
-                "suggestion": "<Mér líkaði vel við hann - oftast.> á líklegast að vera með þankastriki, <Mér líkaði vel við hann – oftast.>.#Ritregludæmi",
+                "suggestion": "<Mér líkaði vel við hann - oftast.> á líklegast að vera með þankastriki, <Mér líkaði vel við hann – oftast.>.",
                 "original_part": "Mér líkaði vel við hann - oftast.",
                 "standardized_part": "Mér líkaði vel við hann – oftast."
             },
@@ -6657,7 +6679,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.3"
     },
     "26.3": null,
     "27.1": {
@@ -6667,27 +6689,27 @@
             "1": {
                 "original_sentence": "Árið eftir 1928 fluttist Guðrún suður.",
                 "standardized_sentence": "Árið eftir (1928) fluttist Guðrún suður.",
-                "suggestion": "<1928> á líklegast að vera með sviga, <(1928)>.#Ritregludæmi",
+                "suggestion": "<1928> á líklegast að vera með sviga, <(1928)>.",
                 "original_part": "1928",
                 "standardized_part": "(1928)"
             },
             "2": {
                 "original_sentence": "Skip sem flytja eldfim efni skulu á daginn hafa uppi rautt flagg merkjatákn B á framsiglu.",
                 "standardized_sentence": "Skip sem flytja eldfim efni skulu á daginn hafa uppi rautt flagg (merkjatákn B) á framsiglu.",
-                "suggestion": "<merkjatákn B> á líklegast að vera með sviga, <(merkjatákn B)>.#Ritregludæmi",
+                "suggestion": "<merkjatákn B> á líklegast að vera með sviga, <(merkjatákn B)>.",
                 "original_part": "merkjatákn B",
                 "standardized_part": "(merkjatákn B)"
             },
             "3": {
                 "original_sentence": "Hve sátt/ur ertu með þjónustu fyrirtækisins?",
                 "standardized_sentence": "Hve sátt(ur) ertu með þjónustu fyrirtækisins?",
-                "suggestion": "<sátt/ur> á líklegast að vera með sviga, <sátt(ur)>.#Ritregludæmi",
+                "suggestion": "<sátt/ur> á líklegast að vera með sviga, <sátt(ur)>.",
                 "original_part": "sátt/ur",
                 "standardized_part": "sátt(ur)"
             }
         },
         "error_code": "missing-bracket/square4bracket/comma4bracket",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#27.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/27.1"
     },
     "27.2": {
         "short_suggestion": "<villa> á líklegast að vera með hornklofa, <leiðrétt>.",
@@ -6696,27 +6718,27 @@
             "1": {
                 "original_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna ... best siðaður, að því er menn viti dæmi til“.",
                 "standardized_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna [...] best siðaður, að því er menn viti dæmi til“.",
-                "suggestion": "<...> á líklegast að vera með hornklofa, <[...]>.#wikipedia/wikipedia_1_0_50-t5.xml:5-BREYTT",
+                "suggestion": "<...> á líklegast að vera með hornklofa, <[...]>.",
                 "original_part": "...",
-                "standardized_part": "???"
+                "standardized_part": "[...]"
             },
             "2": {
                 "original_sentence": "Hann sagði: „Ég óska kennaranum (þ.e. Halldóru, innskot mitt) alls hins besta.“",
                 "standardized_sentence": "Hann sagði: „Ég óska kennaranum [þ.e. Halldóru, innskot mitt] alls hins besta.“",
-                "suggestion": "<(þ.e. Halldóru, innskot mitt)> á líklegast að vera með hornklofa, <[þ.e. Halldóru, innskot mitt]>.#Ritregludæmi",
+                "suggestion": "<(þ.e. Halldóru, innskot mitt)> á líklegast að vera með hornklofa, <[þ.e. Halldóru, innskot mitt]>.",
                 "original_part": "(þ.e. Halldóru, innskot mitt)",
                 "standardized_part": "[þ.e. Halldóru, innskot mitt]"
             },
             "3": {
                 "original_sentence": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.",
                 "standardized_sentence": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn […]“.",
-                "suggestion": "<Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.> á líklegast að vera með hornklofa, <Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn […]“.>.#Ritregludæmi",
+                "suggestion": "<Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.> á líklegast að vera með hornklofa, <Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn […]“.>.",
                 "original_part": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.",
                 "standardized_part": "[...]"
             }
         },
         "error_code": "missing-square/bracket4square",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#27.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/27.2"
     },
     "28.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6725,27 +6747,27 @@
             "1": {
                 "original_sentence": "Þessi 'trausti vinur' sveik mig illilega.",
                 "standardized_sentence": "Þessi „trausti vinur“ sveik mig illilega.",
-                "suggestion": "<Þessi 'trausti vinur' sveik mig illilega> á líklegast að vera <Þessi „trausti vinur“ sveik mig illilega>.#Ritregludæmi",
+                "suggestion": "<Þessi 'trausti vinur' sveik mig illilega> á líklegast að vera <Þessi „trausti vinur“ sveik mig illilega>.",
                 "original_part": "Þessi 'trausti vinur' sveik mig illilega",
                 "standardized_part": "Þessi „trausti vinur“ sveik mig illilega"
             },
             "2": {
                 "original_sentence": "Afi sagði: Hertu þig nú, strákur.",
                 "standardized_sentence": "Afi sagði: „Hertu þig nú, strákur.“",
-                "suggestion": "<Afi sagði: Hertu þig nú, strákur.> á líklegast að vera <Afi sagði: „Hertu þig nú, strákur.“>.#Ritregludæmi",
+                "suggestion": "<Afi sagði: Hertu þig nú, strákur.> á líklegast að vera <Afi sagði: „Hertu þig nú, strákur.“>.",
                 "original_part": "Afi sagði: Hertu þig nú, strákur.",
                 "standardized_part": "Afi sagði: „Hertu þig nú, strákur.“"
             },
             "3": {
                 "original_sentence": "Allt í einu birtist Lárus Pálsson í allri múnderingunni með horn og klaufir, vatt sér að pabba og sagði: Siggi minn, áttu eld handa mér?",
                 "standardized_sentence": "Allt í einu birtist Lárus Pálsson í allri múnderingunni með horn og klaufir, vatt sér að pabba og sagði: „Siggi minn, áttu eld handa mér?“",
-                "suggestion": "<Siggi minn, áttu eld handa mér?> á líklegast að vera <„Siggi minn, áttu eld handa mér?“>.#wikipedia/wikipedia_1_1_1_7-t2.xml:189",
+                "suggestion": "<Siggi minn, áttu eld handa mér?> á líklegast að vera <„Siggi minn, áttu eld handa mér?“>.",
                 "original_part": "Siggi minn, áttu eld handa mér?",
                 "standardized_part": "„Siggi minn, áttu eld handa mér?“"
             }
         },
         "error_code": "missing-quot/missing-quots/misplaced-quot/wrong-quot",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#28.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/28.1"
     },
     "28.2": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6754,27 +6776,27 @@
             "1": {
                 "original_sentence": "Orðið fákur merkir hestur.",
                 "standardized_sentence": "Orðið fákur merkir ‘hestur’.",
-                "suggestion": "<hestur> á líklegast að vera <‘hestur’>.#Ritregludæmi",
+                "suggestion": "<hestur> á líklegast að vera <‘hestur’>.",
                 "original_part": "hestur",
                 "standardized_part": "‘hestur’"
             },
             "2": {
                 "original_sentence": "Orðið fákur merkir „hestur“.",
                 "standardized_sentence": "Orðið fákur merkir ‚hestur‘.",
-                "suggestion": "<„hestur“> á líklegast að vera <‚hestur‘>.#Ritregludæmi",
+                "suggestion": "<„hestur“> á líklegast að vera <‚hestur‘>.",
                 "original_part": "„hestur“",
                 "standardized_part": "‚hestur‘"
             },
             "3": {
                 "original_sentence": "Orðið fákur merkir \"hestur\".",
                 "standardized_sentence": "Orðið fákur merkir ‘hestur’.",
-                "suggestion": "<\"hestur\"> á líklegast að vera <‘hestur’>.#Ritregludæmi",
+                "suggestion": "<\"hestur\"> á líklegast að vera <‘hestur’>.",
                 "original_part": "\"hestur\"",
                 "standardized_part": "‘hestur’"
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#28.2"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/28.2"
     },
     "29.1": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6783,27 +6805,27 @@
             "1": {
                 "original_sentence": "Þá sagði hann, „Hafðu engar áhyggjur, hlustaðu bara á nefið á mér!“",
                 "standardized_sentence": "Þá sagði hann: „Hafðu engar áhyggjur, hlustaðu bara á nefið á mér!“",
-                "suggestion": "<Þá sagði hann,> á líklegast að vera með tvípunkti, <Þá sagði hann:>.#wikipedia/wikipedia_1_1_1_7-t2.xml:50",
+                "suggestion": "<Þá sagði hann,> á líklegast að vera með tvípunkti, <Þá sagði hann:>.",
                 "original_part": "Þá sagði hann,",
                 "standardized_part": "Þá sagði hann:"
             },
             "2": {
                 "original_sentence": "Læknirinn sagði við mig, „Sigurður minn, þú getur aldrei sungið framar.“",
                 "standardized_sentence": "Læknirinn sagði við mig: „Sigurður minn, þú getur aldrei sungið framar.“",
-                "suggestion": "<mig, „Sigurður> á líklegast að vera með tvípunkti, <mig: „Sigurður>.#wikipedia/wikipedia_1_1_1_7-t2.xml:155",
+                "suggestion": "<mig, „Sigurður> á líklegast að vera með tvípunkti, <mig: „Sigurður>.",
                 "original_part": "mig, „Sigurður",
                 "standardized_part": "mig: „Sigurður"
             },
             "3": {
                 "original_sentence": "Um hestamennsku sem tómstundagaman segja þau Sigurður og Inga. „Það er dýrðlegt að vera úti í fallegu umhverfi og bílarnir hvergi nærri.“",
                 "standardized_sentence": "Um hestamennsku sem tómstundagaman segja þau Sigurður og Inga: „Það er dýrðlegt að vera úti í fallegu umhverfi og bílarnir hvergi nærri.“",
-                "suggestion": "<þau Sigurður og Inga.> á líklegast að vera með tvípunkti, <þau Sigurður og Inga:>.#wikipedia/wikipedia_1_1_1_7-t2.xml:187",
+                "suggestion": "<þau Sigurður og Inga.> á líklegast að vera með tvípunkti, <þau Sigurður og Inga:>.",
                 "original_part": "þau Sigurður og Inga.",
                 "standardized_part": "þau Sigurður og Inga:"
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.1"
     },
     "29.2": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6812,27 +6834,27 @@
             "1": {
                 "original_sentence": "Loks var þetta ákveðið, Óskað verður eftir nauðasamningum hið fyrsta.",
                 "standardized_sentence": "Loks var þetta ákveðið: Óskað verður eftir nauðasamningum hið fyrsta.",
-                "suggestion": "<Loks var þetta ákveðið,> á líklegast að vera með tvípunkti, <Loks var þetta ákveðið:>.#Ritregludæmi",
+                "suggestion": "<Loks var þetta ákveðið,> á líklegast að vera með tvípunkti, <Loks var þetta ákveðið:>.",
                 "original_part": "Loks var þetta ákveðið,",
                 "standardized_part": "Loks var þetta ákveðið:"
             },
             "2": {
                 "original_sentence": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum; Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu.",
                 "standardized_sentence": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu.",
-                "suggestion": "<;> á líklegast að vera með tvípunkti, <:>.#wikipedia/wikipedia_1_1_2_2-t16.xml:11",
+                "suggestion": "<;> á líklegast að vera með tvípunkti, <:>.",
                 "original_part": ";",
                 "standardized_part": ":"
             },
             "3": {
                 "original_sentence": "Það var ein spurning sem brann á honum meira en nokkuð annað, spurning sem hann gat ekki látið vera að glíma við. Hvernig skyldi lífið hafa byrjað?",
                 "standardized_sentence": "Það var ein spurning sem brann á honum meira en nokkuð annað, spurning sem hann gat ekki látið vera að glíma við: Hvernig skyldi lífið hafa byrjað?",
-                "suggestion": "<glíma við. Hvernig> á líklegast að vera með tvípunkti, <glíma við: Hvernig>.#wikipedia/wikipedia_1_1_1_8-t1.xml:30",
+                "suggestion": "<glíma við. Hvernig> á líklegast að vera með tvípunkti, <glíma við: Hvernig>.",
                 "original_part": "glíma við. Hvernig",
                 "standardized_part": "glíma við: Hvernig"
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.2"
     },
     "29.3": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6841,27 +6863,27 @@
             "1": {
                 "original_sentence": "Epli er hvorugkynsorð, epli, um epli, frá epli til eplis.",
                 "standardized_sentence": "Epli er hvorugkynsorð: epli, um epli, frá epli til eplis.",
-                "suggestion": "<er hvorugkynsorð,> á líklegast að vera með tvípunkti, <er hvorugkynsorð:>.#wikipedia/wikipedia_1_0_2_4-t5.xml:12",
+                "suggestion": "<er hvorugkynsorð,> á líklegast að vera með tvípunkti, <er hvorugkynsorð:>.",
                 "original_part": "er hvorugkynsorð,",
                 "standardized_part": "er hvorugkynsorð:"
             },
             "2": {
                 "original_sentence": "Sigurður segist sjálfur hafa haft lítið hlutverk með höndum; hlutverk Franks fangelsisstjóra.",
                 "standardized_sentence": "Sigurður segist sjálfur hafa haft lítið hlutverk með höndum: hlutverk Franks fangelsisstjóra.",
-                "suggestion": "<;> á líklegast að vera með tvípunkti, <:>.#wikipedia/wikipedia_1_1_1_7-t2.xml:132",
+                "suggestion": "<;> á líklegast að vera með tvípunkti, <:>.",
                 "original_part": ";",
                 "standardized_part": ":"
             },
             "3": {
                 "original_sentence": "Roché talar fjögur tungumál, frönsku, ítölsku, ensku og spænsku.",
                 "standardized_sentence": "Roché talar fjögur tungumál: frönsku, ítölsku, ensku og spænsku.",
-                "suggestion": "<Roché talar fjögur tungumál,> á líklegast að vera með tvípunkti, <Roché talar fjögur tungumál:>.#wikipedia/wikipedia_1_0_2_1-t26.xml:5",
+                "suggestion": "<Roché talar fjögur tungumál,> á líklegast að vera með tvípunkti, <Roché talar fjögur tungumál:>.",
                 "original_part": "Roché talar fjögur tungumál,",
                 "standardized_part": "Roché talar fjögur tungumál:"
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.3"
     },
     "29.4 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með stórum staf, <leiðrétt>.",
@@ -6870,27 +6892,27 @@
             "1": {
                 "original_sentence": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu.",
                 "standardized_sentence": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu.",
-                "suggestion": "<Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu> á líklegast að vera með stórum staf, <Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu>.#wikipedia/wikipedia_1_1_2_2-t16.xml:11-BREYTT",
+                "suggestion": "<Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu> á líklegast að vera með stórum staf, <Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu>.",
                 "original_part": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu",
                 "standardized_part": "Fljótlega eftir það fóru að koma fram á sjónarsviðið hljómsveitir á borð við Blondie og Talking Heads sem spiluðu tónlist ekki ósvipaða pönkinu en þó með nokkrum breytingum: Textarnir fóru að hafa dýpri merkingu í stað einföldu textanna í pönkinu"
             },
             "2": {
                 "original_sentence": "Þá sagði hann: „hafðu engar áhyggjur, hlustaðu bara á nefið á mér!“",
                 "standardized_sentence": "Þá sagði hann: „Hafðu engar áhyggjur, hlustaðu bara á nefið á mér!“",
-                "suggestion": "<hafðu> á líklegast að vera með stórum staf, <Hafðu>.#wikipedia/wikipedia_1_1_1_7-t2.xml:50",
+                "suggestion": "<hafðu> á líklegast að vera með stórum staf, <Hafðu>.",
                 "original_part": "hafðu",
                 "standardized_part": "Hafðu"
             },
             "3": {
                 "original_sentence": "Það var ein spurning sem brann á honum meira en nokkuð annað, spurning sem hann gat ekki látið vera að glíma við: hvernig skyldi lífið hafa byrjað?",
                 "standardized_sentence": "Það var ein spurning sem brann á honum meira en nokkuð annað, spurning sem hann gat ekki látið vera að glíma við: Hvernig skyldi lífið hafa byrjað?",
-                "suggestion": "<glíma við: hvernig> á líklegast að vera með tvípunkti, <glíma við: Hvernig>.#wikipedia/wikipedia_1_1_1_8-t1.xml:30",
+                "suggestion": "<glíma við: hvernig> á líklegast að vera með tvípunkti, <glíma við: Hvernig>.",
                 "original_part": "glíma við: hvernig",
                 "standardized_part": "glíma við: Hvernig"
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.4 (a)"
     },
     "29.4 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með litlum staf, <leiðrétt>.",
@@ -6899,27 +6921,27 @@
             "1": {
                 "original_sentence": "Þetta vantar: Hamar, nagla og skrúfur.",
                 "standardized_sentence": "Þetta vantar: hamar, nagla og skrúfur.",
-                "suggestion": "<Hamar> á líklegast að vera með litlum staf, <hamar>.#Ritregludæmi",
+                "suggestion": "<Hamar> á líklegast að vera með litlum staf, <hamar>.",
                 "original_part": "Hamar",
                 "standardized_part": "hamar"
             },
             "2": {
                 "original_sentence": "Hann er seinheppinn eins og fyrri daginn: Missir af flugvélinni og tefst í þrjá daga.",
                 "standardized_sentence": "Hann er seinheppinn eins og fyrri daginn: missir af flugvélinni og tefst í þrjá daga.",
-                "suggestion": "<Missir> á líklegast að vera með litlum staf, <missir>.#Ritregludæmi",
+                "suggestion": "<Missir> á líklegast að vera með litlum staf, <missir>.",
                 "original_part": "Missir",
                 "standardized_part": "missir"
             },
             "3": {
                 "original_sentence": "Hún festi kaup á þrenns konar ávöxtum: Eplum, appelsínum og perum.",
                 "standardized_sentence": "Hún festi kaup á þrenns konar ávöxtum: eplum, appelsínum og perum.",
-                "suggestion": "<Eplum> á líklegast að vera með litlum staf, <eplum>.#Ritregludæmi",
+                "suggestion": "<Eplum> á líklegast að vera með litlum staf, <eplum>.",
                 "original_part": "Eplum",
                 "standardized_part": "eplum"
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.4 (b)"
     },
     "29.5": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6928,27 +6950,27 @@
             "1": {
                 "original_sentence": "Ég var vakinn á slaginu kl. 2,45 eins og til stóð.",
                 "standardized_sentence": "Ég var vakinn á slaginu kl. 2:45 eins og til stóð.",
-                "suggestion": "<kl. 2,45> á líklegast að vera með tvípunkti, <kl. 2:45>.#Ritregludæmi",
+                "suggestion": "<kl. 2,45> á líklegast að vera með tvípunkti, <kl. 2:45>.",
                 "original_part": "kl. 2,45",
                 "standardized_part": "kl. 2:45"
             },
             "2": {
                 "original_sentence": "Leikurinn fór 84-78.",
                 "standardized_sentence": "Leikurinn fór 84:78.",
-                "suggestion": "<84-78> á líklegast að vera með tvípunkti, <84:78>.#Ritregludæmi",
+                "suggestion": "<84-78> á líklegast að vera með tvípunkti, <84:78>.",
                 "original_part": "84-78",
                 "standardized_part": "3.554166667"
             },
             "3": {
                 "original_sentence": "ÍA vann Stjörnuna 2 1.",
                 "standardized_sentence": "ÍA vann Stjörnuna 2:1.",
-                "suggestion": "<2 1> á líklegast að vera með tvípunkti, <2:1>.#Tilbúið",
+                "suggestion": "<2 1> á líklegast að vera með tvípunkti, <2:1>.",
                 "original_part": "2 1",
                 "standardized_part": "2:1"
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.5"
     },
     "30.1": null,
     "30.2": null,
@@ -6959,27 +6981,27 @@
             "1": {
                 "original_sentence": "Þetta átti ekki við ann.",
                 "standardized_sentence": "Þetta átti ekki við ’ann.",
-                "suggestion": "<ann> á líklegast að vera <’ann>.#Ritregludæmi",
+                "suggestion": "<ann> á líklegast að vera <’ann>.",
                 "original_part": "ann",
                 "standardized_part": "’ann"
             },
             "2": {
                 "original_sentence": "68-kynslóðin vildi láta til sín taka.",
                 "standardized_sentence": "’68-kynslóðin vildi láta til sín taka.",
-                "suggestion": "<68-kynslóðin> á líklegast að vera <’68-kynslóðin>.#Ritregludæmi",
+                "suggestion": "<68-kynslóðin> á líklegast að vera <’68-kynslóðin>.",
                 "original_part": "68-kynslóðin",
                 "standardized_part": "’68-kynslóðin"
             },
             "3": {
                 "original_sentence": "Ólafur fæddist \"87.",
                 "standardized_sentence": "Ólafur fæddist ’87.",
-                "suggestion": "<\"87> á líklegast að vera <’87>.#Ritregludæmi",
+                "suggestion": "<\"87> á líklegast að vera <’87>.",
                 "original_part": "\"87",
                 "standardized_part": "’87"
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.1"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.1"
     },
     "31.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6995,20 +7017,20 @@
             "2": {
                 "original_sentence": "Er hann nokkuð .....?",
                 "standardized_sentence": "Er hann nokkuð …?",
-                "suggestion": "<.....> á líklegast að vera <…>.#Ritregludæmi",
+                "suggestion": "<.....> á líklegast að vera <…>.",
                 "original_part": ".....",
                 "standardized_part": "…"
             },
             "3": {
                 "original_sentence": "Margir kölluðu þetta... en þótti klúrt.",
                 "standardized_sentence": "Margir kölluðu þetta … en þótti klúrt.",
-                "suggestion": "<... > á líklegast að vera < … >.#Ritregludæmi",
+                "suggestion": "<... > á líklegast að vera < … >.",
                 "original_part": "... ",
                 "standardized_part": " …"
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.2 (a)"
     },
     "31.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7017,14 +7039,14 @@
             "1": {
                 "original_sentence": "Hver í andsk  … var þetta eiginlega?",
                 "standardized_sentence": "Hver í andsk… var þetta eiginlega?",
-                "suggestion": "<andsk  …> á líklegast að vera <andsk…>.#Ritregludæmi",
+                "suggestion": "<andsk  …> á líklegast að vera <andsk…>.",
                 "original_part": "andsk  …",
                 "standardized_part": "andsk…"
             },
             "2": {
                 "original_sentence": "Fyrst varð ég að sópa og mjó … nei, gefa hænsnunum.",
                 "standardized_sentence": "Fyrst varð ég að sópa og mjó… nei, gefa hænsnunum.",
-                "suggestion": "< …> á líklegast að vera <…>.#Ritregludæmi",
+                "suggestion": "< …> á líklegast að vera <…>.",
                 "original_part": " …",
                 "standardized_part": "…"
             },
@@ -7036,8 +7058,8 @@
                 "standardized_part": "..."
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.2"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.2 (b)"
     },
     "32.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7046,14 +7068,14 @@
             "1": {
                 "original_sentence": "„Ég held“, sagði hún, „að þetta geti gengið.“",
                 "standardized_sentence": "„Ég held,“ sagði hún, „að þetta geti gengið.“",
-                "suggestion": "<“,> á líklegast að vera <,“>#Ritregludæmi",
+                "suggestion": "<“,> á líklegast að vera <,“>",
                 "original_part": "“,",
                 "standardized_part": ",“"
             },
             "2": {
                 "original_sentence": "„Hver er þetta“?",
                 "standardized_sentence": "„Hver er þetta?“",
-                "suggestion": "<“?> á líklegast að vera <?“>.#Ritregludæmi",
+                "suggestion": "<“?> á líklegast að vera <?“>.",
                 "original_part": "“?",
                 "standardized_part": "?“"
             },
@@ -7065,8 +7087,8 @@
                 "standardized_part": "“."
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.1"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.1"
     },
     "32.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7075,21 +7097,21 @@
             "1": {
                 "original_sentence": "Þá reis deila milli bænda og sjómanna. (Verkamenn tóku ekki afstöðu).",
                 "standardized_sentence": "Þá reis deila milli bænda og sjómanna. (Verkamenn tóku ekki afstöðu.)",
-                "suggestion": "<).> á líklegast að vera <.)>.#Ritregludæmi",
+                "suggestion": "<).> á líklegast að vera <.)>.",
                 "original_part": ").",
                 "standardized_part": ".)"
             },
             "2": {
                 "original_sentence": "Þá reis deila milli búenda (svo)! og sjómanna.",
                 "standardized_sentence": "Þá reis deila milli búenda (svo!) og sjómanna.",
-                "suggestion": "<)!> á líklegast að vera <!)>.#Ritregludæmi",
+                "suggestion": "<)!> á líklegast að vera <!)>.",
                 "original_part": ")!",
                 "standardized_part": "!)"
             },
             "3": {
                 "original_sentence": "Þá reis deila milli bænda og sjómanna. (Hver var afstaða verkamanna)?",
                 "standardized_sentence": "Þá reis deila milli bænda og sjómanna. (Hver var afstaða verkamanna?)",
-                "suggestion": "<)?> á líklegast að vera <?)>.#Ritregludæmi",
+                "suggestion": "<)?> á líklegast að vera <?)>.",
                 "original_part": ")?",
                 "standardized_part": "?)"
             }
@@ -7111,7 +7133,7 @@
             "2": {
                 "original_sentence": "Hún sagðist ætla að koma fljótt aftur (í maí eða júní.)",
                 "standardized_sentence": "Hún sagðist ætla að koma fljótt aftur (í maí eða júní).",
-                "suggestion": "<.)> á líklegast að vera <).>.#Ritregludæmi",
+                "suggestion": "<.)> á líklegast að vera <).>.",
                 "original_part": ".)",
                 "standardized_part": ")."
             },
@@ -7123,8 +7145,8 @@
                 "standardized_part": ")?"
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.2"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.2 (b)"
     },
     "32.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7133,27 +7155,27 @@
             "1": {
                 "original_sentence": "Hann sagði: „Ég tók ekki veskið;“ enginn trúði honum.",
                 "standardized_sentence": "Hann sagði: „Ég tók ekki veskið“; enginn trúði honum.",
-                "suggestion": "<;“> á líklegast að vera <“;>.#Ritregludæmi",
+                "suggestion": "<;“> á líklegast að vera <“;>.",
                 "original_part": ";“",
                 "standardized_part": "“;"
             },
             "2": {
                 "original_sentence": "Þingmaðurinn fór þá með gamanvísur (ekki í fyrsta sinn;) hló þá þingheimur.",
                 "standardized_sentence": "Þingmaðurinn fór þá með gamanvísur (ekki í fyrsta sinn); hló þá þingheimur.",
-                "suggestion": "<;)> á líklegast að vera <);>.#Ritregludæmi",
+                "suggestion": "<;)> á líklegast að vera <);>.",
                 "original_part": ";)",
                 "standardized_part": ");"
             },
             "3": {
-                "original_sentence": "„Hver er þarna?\"; því miður var orðið myrkt.",
+                "original_sentence": "„Hver er þarna?\". Því miður var orðið myrkt.",
                 "standardized_sentence": "„Hver er þarna?\"; því miður var orðið myrkt.",
                 "suggestion": "<„Hver er þarna?\". Því miður var orðið myrkt.> á líklegast að vera <„Hver er þarna?\"; því miður var orðið myrkt.>.",
                 "original_part": "„Hver er þarna?\". Því miður var orðið myrkt.",
-                "standardized_part": "???"
+                "standardized_part": "„Hver er þarna?\"; því miður var orðið myrkt."
             }
         },
-        "error_code": "0",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.3"
+        "error_code": "",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.3"
     },
     "33.1": null,
     "33.2": null
