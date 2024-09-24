@@ -59,7 +59,10 @@ def load_rules_json(rules_filepath: str) -> Dict[str, Any]:
         examples = rule_data.pop("examples")
         ex_1 = RuleExample(**examples["1"])
         ex_2 = RuleExample(**examples["2"])
-        ex_3 = RuleExample(**examples["3"])
+        try:
+            ex_3 = RuleExample(**examples["3"])
+        except KeyError:
+            ex_3 = None
         rule_data["examples"] = [ex_1, ex_2, ex_3]
         new_rules[rule_name] = SingleRule(**rule_data)
     # print(rules.keys())

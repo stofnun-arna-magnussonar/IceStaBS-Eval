@@ -1,7 +1,8 @@
 ---
 FILE_FOLDERS:
     data_dir: data
-    base_dir: /home/hinhaf/projects/malryni-pipeline
+    base_dir: /home/hinhaf/projects/IceStaBS-SP
+    model_dir: /mnt/vinnsla/hinhaf/malryni-eval/
 
 INPUT_FILES:
     ex_1: oleidrett_1.txt
@@ -34,10 +35,10 @@ GLOBALS:
           name: Byte-Level Neural Error Correction Model for Icelandic - Yfirlestur (24.03)
           url: http://hdl.handle.net/20.500.12537/324
           id: byt5-24-03
-        greynir_correct:
+        greynir:
           name: GreynirCorrect
           url: "https://github.com/mideind/GreynirCorrect"
-          id: greynir_correct
+          id: greynir
         ice-gpt-sw3:
           name: Icelandic GPT-SW3 for Spell and Grammar Checking
           url: https://huggingface.co/mideind/icelandic-gpt-sw3-6.7b-gec

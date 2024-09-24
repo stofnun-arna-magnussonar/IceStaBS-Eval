@@ -4209,7 +4209,35 @@
         "error_code": "n4nn",
         "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.3.1 (b)"
     },
-    "12.3.2": null,
+    "12.3.2": {
+        "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>.",
+        "long_suggestion": "Fornafnið <i>enginn</i> hefur eitt <i>n</i> í þf.et. í karlkyni. Sjá ritreglu 12.3.2 (https://ritreglur.arnastofnun.is/#12.3.2).",
+        "examples": {
+            "1": {
+                "original_sentence": "Ég sá engann í bænum.",
+                "standardized_sentence": "Ég sá engan í bænum.",
+                "suggestion": "<engann> á líklega að vera með einföldu <i>n</i>, <engan>.",
+                "original_part": "engann",
+                "standardized_part": "engan"
+            },
+            "2": {
+                "original_sentence": "Engann mann veit ég betri.",
+                "standardized_sentence": "Engan mann veit ég betri.",
+                "suggestion": "<Engann> á líklega að vera með einföldu <i>n</i>, <engan>.",
+                "original_part": "Engann",
+                "standardized_part": "Engan"
+            },
+            "3": {
+                "original_sentence": "Engann langar í fiskinn.",
+                "standardized_sentence": "Engan langar í fiskinn.",
+                "suggestion": "<Engann> á líklega að vera með einföldu <i>n</i>, <Engan>.",
+                "original_part": "Engann",
+                "standardized_part": "Engan"
+            }
+        },
+        "error_code": "nn4n",
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.3.2"
+    },
     "12.4.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>.",
         "long_suggestion": "Í nafnorðum sem enda á <i>-ann</i>, <i>-inn</i> og <i>-unn</i> er aðeins ritað <i>nn<i> í nefnifalli eintölu. Í öllum öðrum föllum er <i>n</i>. Munurinn heyrist ekki í framburði en <i>n</i>-in eru jafnmörg og í beygingu orðsins <i>steinn</i>. Sjá ritreglu 12.4.1 (https://ritreglur.arnastofnun.is/#12.4.1).",
@@ -5102,6 +5130,13 @@
                 "suggestion": "<Snæfellsnesprófastsdæmi> á líklegast að vera <Snæfellsnessprófastsdæmi>.",
                 "original_part": "Snæfellsnesprófastsdæmi",
                 "standardized_part": "Snæfellsnessprófastsdæmi"
+            },
+            "3": {
+                "original_sentence": "Árnessýsla er þekkt fyrir fallega náttúru.",
+                "standardized_sentence": "Árnesssýsla er þekkt fyrir fallega náttúru.",
+                "suggestion": "<Árnessýsla> á líklegast að vera <Árnesssýsla>.",
+                "original_part": "Árnessýsla",
+                "standardized_part": "Árnesssýsla"
             }
         },
         "error_code": "missing-letter",

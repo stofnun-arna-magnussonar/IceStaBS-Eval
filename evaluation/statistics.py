@@ -23,28 +23,32 @@ def build_overview_data(corrections: pd.DataFrame) -> pd.DataFrame:
     overview_data = []
     for col_name in corrections.columns:
         if col_name.startswith("ex_"):
+            if col_name.endswith("standardized") or col_name.endswith("original"):
+                continue
             example_nr = col_name.split("_")[1]
             example_id = "_".join(col_name.split("_")[:2])
             tool = "_".join(col_name.split("_")[2:])
             for i, row in corrections.iterrows():
+                standardized_label = f"ex_{example_nr}_standardized"
+                original_label = f"ex_{example_nr}_original"
                 token_level_stats = token_level_eval(
-                    row[f"oleidrett_{example_nr}"],
+                    row[original_label],
                     row[col_name],
-                    row[f"Leiðrétt dæmi {example_nr}"],
+                    row[standardized_label],
                 )
                 single_output_data = _StatOverview(
                     rule=row["Ritregla"],
                     tool=tool,
                     example_id=example_id,
-                    input_text=row[f"oleidrett_{example_nr}"],
+                    input_text=row[original_label],
                     output_text=row[col_name],
-                    correct=row[f"Leiðrétt dæmi {example_nr}"],
+                    correct=row[standardized_label],
                     tp_score=token_level_stats.true_positive,
                     fp_score=token_level_stats.false_positive,
                     tn_score=token_level_stats.true_negative,
                     fn_score=token_level_stats.false_negative,
                     sent_level_correct=(
-                        1 if row[col_name] == row[f"Leiðrétt dæmi {example_nr}"] else 0
+                        1 if row[col_name] == row[standardized_label] else 0
                     ),
                 )
                 overview_data.append(single_output_data)
@@ -60,6 +64,8 @@ def f_score_per_tool(df: pd.DataFrame) -> pd.DataFrame:
     f1_scores = pd.DataFrame(columns=["tool", "precision", "recall", "f1_score"])
     # sum the true positive, false positive and false negative scores for each tool
     for tool in df["tool"].unique():
+        if tool in ["standardized, original"]:
+            continue
         tool_df = df[df["tool"] == tool]
         tp = tool_df["tp_score"].sum()
         fp = tool_df["fp_score"].sum()
