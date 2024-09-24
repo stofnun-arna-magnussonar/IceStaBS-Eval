@@ -234,7 +234,7 @@ def load_model(model_name: str, max_length: int = None) -> pipeline:
             max_length=max_length,
         )
         return corr(pipe, "", "", "", "")
-    if model_name.startswith("icelandic-gpt-sw3"):
+    if model_name.startswith("ice-gpt-sw3"):
         START_PROMPT = "Hér er texti sem ég vil að þú skoðir vel og vandlega. Þú skalt skoða hvert einasta orð, orðasamband, og setningu og meta hvort þér finnist eitthvað athugavert, til dæmis hvað varðar málfræði, stafsetningu, skringilega merkingu og svo framvegis.\nHér er textinn:\n\n"
         END_PROMPT = "\n\nReyndu nú að laga textann þannig að hann líti betur út, eins og þér finnst best við hæfi.\n"
         pipe = pipeline(
@@ -317,6 +317,8 @@ def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
                 ),
                 sep="\t",
             )
+            if "Unnamed: 0" in corrections.columns:
+                corrections = corrections.drop(columns=["Unnamed: 0"])
             for tool in overwrite:
                 if tool not in CONFIG["GLOBALS"]["tools"]:
                     print(f"Tool {tool} not found. Skipping...")
@@ -395,14 +397,14 @@ def apply_all_corrections(corrections: pd.DataFrame, tools: Dict[str, dict]) -> 
                     else:
                         print(f"Column {column_name} already exists in data. Skipping")
 
-                case "icelandic-gpt-sw3":
-                    column_name = f"ex_{i}_icelandic-gpt-sw3"
+                case "ice-gpt-sw3":
+                    column_name = f"ex_{i}_ice-gpt-sw3"
                     if not column_name in corrections.columns:
                         gpt_corrected = apply_correction_model(
-                            "icelandic-gpt-sw3", example_set, i, max_length
+                            "ice-gpt-sw3", example_set, i, max_length
                         )
                         add_output_to_corrections(
-                            corrections, gpt_corrected, f"ex_{i}_icelandic-gpt-sw3"
+                            corrections, gpt_corrected, column_name
                         )
                         save_corrections(corrections)
                     else:
