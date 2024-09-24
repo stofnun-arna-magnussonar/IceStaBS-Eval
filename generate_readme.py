@@ -27,7 +27,7 @@ The rules of the icelandic written standard are divided into 33 chapters, with e
 
 We designate 246 specific rules which are applicable in the context of automatic correction of spelling and grammar.
 This, combined to the fact that the rules are divided into 3 examples each, results in a total of 738 examples,
-which can be used to evaluate the performance of automatic spelling and grammar correction tools, based on the standardization rules of the Icelandic language.
+which can be used to evaluate the performance of automatic spelling and grammar correction tools, based on the Language Usage Database (*Málfarsbankinn.)
 
 These attributes allow for a detailed evaluation of the performance of the tools on the _IceStaBS_ dataset.
 
@@ -60,7 +60,7 @@ Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á efti
 The JSON entry (non-exhaustive) for this rule is as follows:
 
 ```json
-"1.2.1 (a)": {
+    "1.2.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir punkti.",
         "long_suggestion": "Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Sjá ritreglu 1.2.1 (https://ritreglur.arnastofnun.is/#1.2.1).",
         "examples": {
@@ -87,7 +87,7 @@ The JSON entry (non-exhaustive) for this rule is as follows:
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (a)"
     },
 ```
 
@@ -152,6 +152,8 @@ def footer():
     footer = f"""
 # Acknowledgements
 
+
+
 ---
 
 This README was automatically generated on {gen_date}.
@@ -212,6 +214,7 @@ if __name__ == "__main__":
         "ice-gpt-sw3": "ice-gpt-sw3",
         "skrambi": "skrambi",
         "word": "ms_word",
+        "puki": "puki",
     }
     data = data_from_file("data/corrections.tsv")
     overview = build_overview_data(data)
