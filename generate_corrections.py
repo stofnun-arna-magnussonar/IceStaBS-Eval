@@ -1,6 +1,5 @@
 import pandas as pd
 
-import gc
 import torch
 import yaml
 import requests
@@ -13,7 +12,7 @@ from dataclasses import dataclass
 from transformers import pipeline
 from transformers.pipelines.pt_utils import KeyDataset
 from tqdm import tqdm
-from tokenizer import split_into_sentences
+from tokenizer import split_into_sentences, correct_spaces
 
 tqdm.pandas()
 
@@ -170,7 +169,9 @@ def apply_skrambi_corrections(sentences: List[str], annotations):
                 tokens[i] = suggestions[0]  # Replace with the first suggestion
 
         # Step 4: Reassemble the sentence and store the corrected version
-        corrected_sentences[sentence_index] = " ".join(tokens)
+        corrected_sentences[sentence_index] = correct_spaces(" ".join(tokens))
+        # print(f"Corrected sentence: '{corrected_sentences[sentence_index]}'")
+        # print()
 
     return corrected_sentences
 
@@ -189,13 +190,15 @@ def find_sentence_index(sentences, char_start):
 
 
 def get_skrambi_correction_bulk(text_list: List[str]):
+
     url = "https://skrambi.arnastofnun.is/checkDocument"
 
     # maintain unicode
     break_symbol = "\\uefff".encode("utf-8").decode("unicode-escape")
 
     # Concatenate the entire column values into one payload
-    payload = f"{break_symbol}".join(text_list)
+    # payload = f"{break_symbol}".join(text_list)
+    payload = " ".join(text_list)
 
     headers = {"Content-Type": "text/plain"}
 
@@ -289,22 +292,39 @@ def apply_correction_model(
 
 def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
     if overwrite:
-        corrections = pd.DataFrame(
-            columns=[
-                "Ritregla",
-                "ex_1_standardized",
-                "ex_2_standardized",
-                "ex_3_standardized",
-                "ex_1_original",
-                "ex_2_original",
-                "ex_3_original",
-            ]
-        )
+        if isinstance(overwrite, bool):
+            corrections = pd.DataFrame(
+                columns=[
+                    "Ritregla",
+                    "ex_1_standardized",
+                    "ex_2_standardized",
+                    "ex_3_standardized",
+                    "ex_1_original",
+                    "ex_2_original",
+                    "ex_3_original",
+                ]
+            )
 
-        corrections["Ritregla"] = rule_classes
-        for i in range(1, 4):
-            corrections[f"ex_{i}_standardized"] = get_standardized_set(i)
-            corrections[f"ex_{i}_original"] = get_original_set(i)
+            corrections["Ritregla"] = rule_classes
+            for i in range(1, 4):
+                corrections[f"ex_{i}_standardized"] = get_standardized_set(i)
+                corrections[f"ex_{i}_original"] = get_original_set(i)
+        elif isinstance(overwrite, list):
+            # If a list of tools is provided, overwrite only those columns
+            corrections = pd.read_csv(
+                os.path.join(
+                    CONFIG["FILE_FOLDERS"]["base_dir"], "data", "corrections.tsv"
+                ),
+                sep="\t",
+            )
+            for tool in overwrite:
+                if tool not in CONFIG["GLOBALS"]["tools"]:
+                    print(f"Tool {tool} not found. Skipping...")
+                    continue
+                for i in range(1, 4):
+                    column_name = f"ex_{i}_{tool}"
+                    if column_name in corrections.columns:
+                        corrections = corrections.drop(columns=[column_name])
     else:
         CORRECTIONS_PATH = os.path.join(
             CONFIG["FILE_FOLDERS"]["base_dir"], "data", "corrections.tsv"
@@ -365,6 +385,7 @@ def apply_all_corrections(corrections: pd.DataFrame, tools: Dict[str, dict]) -> 
                 case "skrambi":
                     column_name = f"ex_{i}_skrambi"
                     if not column_name in corrections.columns:
+                        print(f"Applying Skrambi corrections to ex_{i}")
                         annotations = get_skrambi_correction_bulk(example_set)
                         corrected = apply_skrambi_corrections(example_set, annotations)
                         corrections = add_output_to_corrections(

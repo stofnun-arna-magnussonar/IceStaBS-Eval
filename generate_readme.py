@@ -51,7 +51,9 @@ The relevant excerpt of the original rule is as follows:
 ```
 1.2.1 Stór stafur er ritaður í upphafi máls
 
-Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu, eins og ráða má af eftirfarandi dæmum og skýringum (sjá nánar um greinarmerki í reglum um greinarmerki).
+Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki 
+og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu, eins og ráða má af eftirfarandi dæmum og
+skýringum (sjá nánar um greinarmerki í reglum um greinarmerki).
 
     Hann er kominn. Það var nú gott. [Upphaf máls og ný málsgrein á eftir punkti.]
 
