@@ -179,10 +179,10 @@ def generate_readme(
     md = md.replace("<tool_1>", tool_names[highest_f1["Tool"]])
     md = md.replace("<score_1>", str(round(highest_f1["F1 Score"], 2)))
 
-    per_tool_board = summary.to_markdown()
-    per_rule_board = per_rule.to_markdown()
-    leaderboard = leaderboard.to_markdown(index=False)
-    token_level_f1 = f1_scores.to_markdown(index=False)
+    per_tool_board = summary.to_markdown(tablefmt="github")
+    per_rule_board = per_rule.to_markdown(tablefmt="github")
+    leaderboard = leaderboard.to_markdown(index=False, tablefmt="github")
+    token_level_f1 = f1_scores.to_markdown(index=False, tablefmt="github")
 
     md = md.replace("<!-- tool_description -->", generate_tool_description(config))
 

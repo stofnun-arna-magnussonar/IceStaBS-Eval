@@ -86,7 +86,7 @@ The JSON entry (non-exhaustive) for this rule is as follows:
 We evaluate 9 tools on the *IceStaBS* dataset:
 
 | Tool       |   Precision |   Recall |   F1 Score |
-|:-----------|------------:|---------:|-----------:|
+|------------|-------------|----------|------------|
 | `byt5-23-12` |    0.764168 | 0.501801 |   0.605797 |
 | `byt5-24-03` |    0.76386  | 0.449275 |   0.565779 |
 | `byt5-22-09` |    0.712406 | 0.454982 |   0.555311 |
@@ -130,7 +130,7 @@ This is done by comparing the output of the tool to the expected output. If the 
 ### Statistics per tool
 
 | Tool       |   Ex. 1 |   Ex. 2 |   Ex. 3 |   Total |       % |
-|:-----------|--------:|--------:|--------:|--------:|--------:|
+|------------|---------|---------|---------|---------|---------|
 | `byt5-23-12` |     114 |     119 |     109 |     342 | 46.1538 |
 | `greynir`    |     114 |     108 |     103 |     325 | 43.8596 |
 | `byt5-22-09` |     107 |     109 |      99 |     315 | 42.5101 |
@@ -143,7 +143,7 @@ This is done by comparing the output of the tool to the expected output. If the 
 ### Statistics per rule
 
 |   Class |   Total |   `byt5-22-09` |   `byt5-23-12` |   `byt5-24-03` |   `google` |   `greynir` |   `puki` |   `skrambi` |   `ms_word` |
-|--------:|--------:|-------------:|-------------:|-------------:|---------:|----------:|-------:|----------:|-------:|
+|---------|---------|--------------|--------------|--------------|----------|-----------|--------|-----------|--------|
 |       1 |     153 |           64 |           67 |           52 |        0 |        68 |     14 |        14 |     26 |
 |       2 |      60 |           34 |           35 |           32 |       23 |        27 |      0 |        16 |     15 |
 |       3 |      12 |            6 |            5 |            5 |        8 |         9 |      5 |        10 |      3 |
@@ -179,7 +179,7 @@ This is done by comparing the output of the tool to the expected output. If the 
 ### Per-rule leaderboard
 
 |   Class | Best Tool   |   Score |   Possible |        % |
-|--------:|:------------|--------:|-----------:|---------:|
+|---------|-------------|---------|------------|----------|
 |       1 | `greynir`     |      68 |        153 |  44.4444 |
 |       2 | `byt5-23-12`  |      35 |         60 |  58.3333 |
 |       3 | `skrambi`     |      10 |         12 |  83.3333 |
@@ -219,7 +219,7 @@ In addition to the sentence-level correctness, we also calculate the token-level
 ### Token-level F1 Score per Tool
 
 | Tool       |   Precision |   Recall |   F1 Score |
-|:-----------|------------:|---------:|-----------:|
+|------------|-------------|----------|------------|
 | `byt5-23-12` |    0.764168 | 0.501801 |   0.605797 |
 | `byt5-24-03` |    0.76386  | 0.449275 |   0.565779 |
 | `byt5-22-09` |    0.712406 | 0.454982 |   0.555311 |
@@ -236,5 +236,5 @@ In addition to the sentence-level correctness, we also calculate the token-level
 
 ---
 
-This README was automatically generated on 2024-09-24 at 17:06:57.
+This README was automatically generated on 2024-09-24 at 17:13:15.
 
