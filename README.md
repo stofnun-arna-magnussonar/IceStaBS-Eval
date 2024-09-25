@@ -75,7 +75,7 @@ The JSON entry (non-exhaustive) for this rule is as follows:
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
 ```
 
