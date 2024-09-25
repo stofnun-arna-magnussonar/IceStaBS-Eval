@@ -27,7 +27,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (ba)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir upphrópunarmerki.",
@@ -56,7 +56,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (ba)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (bb)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir upphrópunarmerki innan sömu málsgreinar.",
@@ -85,7 +85,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (bb)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (ca)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir spurningarmerki.",
@@ -114,7 +114,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (ca)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (cb)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir spurningarmerki innan sömu málsgreinar.",
@@ -143,7 +143,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (cb)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (da)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir tvípunkti.",
@@ -172,7 +172,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (da)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (db)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir tvípunkti innan sömu málsgreinar.",
@@ -201,7 +201,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (db)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (e)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir kommu.",
@@ -230,7 +230,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (e)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.1 (f)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það kemur á eftir semíkommu.",
@@ -259,7 +259,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (f)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.1"
     },
     "1.2.2.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem það er yfirleitt ekki stór stafur í seinni hluta heitis nema hann sé sjálfstætt sérnafn eða sérnöfn.",
@@ -288,7 +288,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.1"
     },
     "1.2.2.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem það er yfirleitt ekki stór stafur í heiti sem er fleiri en eitt orð.",
@@ -317,7 +317,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.1"
     },
     "1.2.2.2 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn.",
@@ -346,7 +346,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
     },
     "1.2.2.2 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á guðlegri eða yfirnáttúrulegri veru.",
@@ -375,7 +375,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
     },
     "1.2.2.2 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á dýri.",
@@ -404,7 +404,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
     },
     "1.2.2.2 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á persónugerðu fyrirbæri.",
@@ -433,7 +433,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.2 d"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.2"
     },
     "1.2.2.3 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er örnefni.",
@@ -462,7 +462,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
     },
     "1.2.2.3 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á byggð.",
@@ -491,7 +491,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
     },
     "1.2.2.3 c (a)": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er nafn á stjörnu eða öðru fyrirbæri í geimnum.",
@@ -520,7 +520,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
     },
     "1.2.2.3 c (b)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem íslensk heiti himintungla í okkar sólkerfi eru rituð með litlum upphafsstaf.",
@@ -549,7 +549,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
     },
     "1.2.2.3 c (c)": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem heiti stjörnumerkja eru rituð með litlum upphafsstaf.",
@@ -578,7 +578,7 @@
             }
         },
         "error_code": "upper4lower-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.3 c (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.3"
     },
     "1.2.2.4 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á húsi eða mannvirki.",
@@ -607,7 +607,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
     },
     "1.2.2.4 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á farartæki.",
@@ -636,7 +636,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
     },
     "1.2.2.4 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á hugverki.",
@@ -665,7 +665,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
     },
     "1.2.2.4 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er vörumerki.",
@@ -694,7 +694,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.4 d"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.4"
     },
     "1.2.2.5 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á stofnun eða fyrirtæki.",
@@ -723,7 +723,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.5 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.5"
     },
     "1.2.2.5 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti á félagi eða klúbbi.",
@@ -752,7 +752,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.2.5 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.2.5"
     },
     "1.2.3.1": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er þjóðarheiti.",
@@ -781,7 +781,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.1"
     },
     "1.2.3.2 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er íbúaheiti.",
@@ -810,7 +810,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
     },
     "1.2.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er ættaheiti.",
@@ -839,7 +839,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
     },
     "1.2.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er heiti fólks sem er kennt við lið eða samtök.",
@@ -868,7 +868,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
     },
     "1.2.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það er dregið af heiti stjórnmálaflokks.",
@@ -897,7 +897,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.3.2 d"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.3.2"
     },
     "1.2.4 a": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem fyrri hluti orðsins er nafn.",
@@ -926,7 +926,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
     },
     "1.2.4 b": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem seinni hluti orðsins er nafn.",
@@ -955,7 +955,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
     },
     "1.2.4 c": {
         "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem seinni hluti orðsins er nafn.",
@@ -984,7 +984,7 @@
             }
         },
         "error_code": "lower4upper-proper",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.4 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.4"
     },
     "1.2.5.1": null,
     "1.2.5.2": {
@@ -1014,7 +1014,7 @@
             }
         },
         "error_code": "lower4upper-acro",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.2.5.2"
     },
     "1.3.1": null,
     "1.3.2 a": {
@@ -1044,7 +1044,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem viðurnefni eru rituð með litlum staf.",
@@ -1073,7 +1073,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er nafn á degi eða mánuði.",
@@ -1102,7 +1102,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á starfsgrein eða prófi.",
@@ -1131,7 +1131,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 d"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 e": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á efni eða vöru.",
@@ -1160,7 +1160,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 e"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 f": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er gjaldmiðill.",
@@ -1189,7 +1189,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.2 f"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.2"
     },
     "1.3.2 g": null,
     "1.3.3.1": null,
@@ -1220,7 +1220,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 b": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er jurtategund.",
@@ -1249,7 +1249,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 c": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er matvælategund.",
@@ -1278,7 +1278,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 c"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 d": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er sjúkdómur eða heilkenni.",
@@ -1307,7 +1307,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 d"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 e": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á trúarbrögðum eða stefnu.",
@@ -1336,7 +1336,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 e"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 f": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er stjórnmálastefna.",
@@ -1365,7 +1365,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 f"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.2 g": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er upprunalega dregið af sérnafni en hefur fengið almenna merkingu.",
@@ -1394,7 +1394,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.2 g"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.2"
     },
     "1.3.3.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem dagar og tímabil eru rituð með litlum staf.",
@@ -1423,7 +1423,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.3.3"
     },
     "1.3.4": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er heiti á tungumáli eða mállýsku.",
@@ -1452,7 +1452,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.4"
     },
     "1.3.5": {
         "short_suggestion": "<villa> á líklega að vera með litlum staf, <leiðrétt>, þar sem það er kynþáttaheiti.",
@@ -1481,7 +1481,7 @@
             }
         },
         "error_code": "upper4lower-common",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.3.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#1.3.5"
     },
     "1.3.6.1": null,
     "1.3.6.2": null,
@@ -1516,7 +1516,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.1"
     },
     "2.1.2": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð.",
@@ -1545,7 +1545,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.2"
     },
     "2.1.3": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð þar sem fyrri liður er áhersluforliður.",
@@ -1574,7 +1574,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.3"
     },
     "2.1.4.1": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1603,7 +1603,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.4.1"
     },
     "2.1.4.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>, þar sem það er heiti á Íslendingasögu.",
@@ -1632,7 +1632,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.1.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.1.4.2"
     },
     "2.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1661,7 +1661,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.2"
     },
     "2.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1690,7 +1690,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.2"
     },
     "2.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1719,7 +1719,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.3 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.3"
     },
     "2.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1748,7 +1748,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.3 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.3"
     },
     "2.4.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1777,7 +1777,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.1"
     },
     "2.4.1. (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1806,7 +1806,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.1. (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.1"
     },
     "2.4.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1835,7 +1835,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.4.2"
     },
     "2.5 (a)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1864,7 +1864,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
     },
     "2.5 (b)": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>.",
@@ -1893,7 +1893,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
     },
     "2.5 (c)": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1922,7 +1922,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.5 (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.5"
     },
     "2.6.1": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1951,7 +1951,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.6.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.6.1"
     },
     "2.6.2": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>.",
@@ -1980,7 +1980,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.6.2"
     },
     "2.7": {
         "short_suggestion": "<villa> á líklega að vera í aðskildum orðum, <leiðrétt>, þar sem það er samtenging.",
@@ -2009,7 +2009,7 @@
             }
         },
         "error_code": "merged-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.7"
     },
     "2.8.1": null,
     "2.8.2": {
@@ -2039,7 +2039,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.8.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.8.2"
     },
     "2.8.3": {
         "short_suggestion": "<villa> á líklega að vera í einu orði, <leiðrétt>, eins og almennt gildir um samsett orð.",
@@ -2068,7 +2068,7 @@
             }
         },
         "error_code": "split-word/split-words",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/2.8.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#2.8.3"
     },
     "2.9": null,
     "3": null,
@@ -2100,7 +2100,7 @@
             }
         },
         "error_code": "missing-accent/extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.2"
     },
     "3.3.1": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>je</i>, <leiðrétt>, líkt og nokkur önnur orð af erlendum uppruna.",
@@ -2129,7 +2129,7 @@
             }
         },
         "error_code": "extra-accent/missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.3.1"
     },
     "3.3.2": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>je</i>, <leiðrétt>, líkt og öll orð sem enda á <i>-jandi</i> í eintölu.",
@@ -2158,7 +2158,7 @@
             }
         },
         "error_code": "extra-accent/missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.3.2"
     },
     "3.4": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>, líkt og alltaf þar sem á undan kemur <i>k</i> eða <i>g</i>.",
@@ -2187,7 +2187,7 @@
             }
         },
         "error_code": "extra-accent/extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#3.4"
     },
     "3.5": null,
     "4.1": null,
@@ -2218,7 +2218,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2247,7 +2247,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.2 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2276,7 +2276,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.2 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i>/<i>nng</i> eða <i>n</i>/<i>nnk</i>.",
@@ -2305,7 +2305,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (d)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.2 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2334,7 +2334,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (e)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.2 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ö</i>, <leiðrétt>, líkt og oftast á undan <i>ng</i> eða <i>nk</i>.",
@@ -2363,7 +2363,7 @@
             }
         },
         "error_code": "ngnk",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.2 (f)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.2"
     },
     "4.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, líkt og framburður bendir til.",
@@ -2392,7 +2392,7 @@
             }
         },
         "error_code": "extra-accent/missing-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/4.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#4.3"
     },
     "5.1": null,
     "5.2 (a)": {
@@ -2422,7 +2422,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -2451,7 +2451,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>.",
@@ -2480,7 +2480,7 @@
             }
         },
         "error_code": "extra-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>o</i>, <leiðrétt>.",
@@ -2509,7 +2509,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (d)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>.",
@@ -2538,7 +2538,7 @@
             }
         },
         "error_code": "extra-accent",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (e)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -2567,7 +2567,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (f)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (g)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ö</i>, <leiðrétt>.",
@@ -2596,7 +2596,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (g)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (h)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>í</i>, <leiðrétt>.",
@@ -2625,7 +2625,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (h)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (i)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -2654,7 +2654,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (i)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (j)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>au</i>, <leiðrétt>.",
@@ -2683,7 +2683,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (j)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (k)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ei</i>, <leiðrétt>.",
@@ -2712,7 +2712,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (k)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.2 (l)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -2741,7 +2741,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.2 (l)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.2"
     },
     "5.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>a</i>, <leiðrétt>.",
@@ -2770,7 +2770,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -2799,7 +2799,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>o</i>, <leiðrétt>.",
@@ -2828,7 +2828,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>u</i>, <leiðrétt>.",
@@ -2857,7 +2857,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (d)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -2886,7 +2886,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (e)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ei</i>, <leiðrétt>.",
@@ -2915,7 +2915,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (f)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.3 (k)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -2944,7 +2944,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.3 (k)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.3"
     },
     "5.4 (a)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>a</i>, <leiðrétt>.",
@@ -2973,7 +2973,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "5.4 (b)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>e</i>, <leiðrétt>.",
@@ -3002,7 +3002,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "5.4 (c)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>i</i>, <leiðrétt>.",
@@ -3031,7 +3031,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (c)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "5.4 (d)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -3060,7 +3060,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (d)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "5.4 (e)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>í</i>, <leiðrétt>.",
@@ -3089,7 +3089,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (e)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "5.4 (f)": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>æ</i>, <leiðrétt>.",
@@ -3118,7 +3118,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/5.4 (f)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#5.4"
     },
     "6.1": null,
     "6.2.1": {
@@ -3148,7 +3148,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.1"
     },
     "6.2.2": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ý</i>, leiðrétt.",
@@ -3177,7 +3177,7 @@
             }
         },
         "error_code": "í4ý",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.2"
     },
     "6.2.3": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>ey</i>, <leiðrétt>.",
@@ -3206,7 +3206,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.2.3"
     },
     "6.3": {
         "short_suggestion": "<villa> á líklega að vera skrifað með <i>y</i>, <leiðrétt>.",
@@ -3235,7 +3235,7 @@
             }
         },
         "error_code": "i4y",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/6.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#6.3"
     },
     "6.4": null,
     "6.5": null,
@@ -3269,7 +3269,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.1"
     },
     "7.3.2": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem <i>v</i> er ritað fyrir v-hljóð í viðskeytum orða.",
@@ -3298,7 +3298,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.2"
     },
     "7.3.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>, þar sem <i>f</i> er ritað fyrir v-hljóð sem helst í öllum beygingarmyndum.",
@@ -3327,7 +3327,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.3"
     },
     "7.3.4": null,
     "7.3.5": {
@@ -3357,7 +3357,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.3.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.3.5"
     },
     "7.4": null,
     "7.5 (a)": {
@@ -3387,7 +3387,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.5 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.5"
     },
     "7.5 (b)": {
         "short_suggestion": "<villa> á líklega að vera með <ffl>, <leiðrétt>, líkt og vanalega þegar fl-hljóð heyrist í miðju orði.",
@@ -3416,7 +3416,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.5 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.5"
     },
     "7.6": {
         "short_suggestion": "<villa> á líklega að vera með <fn>, <leiðrétt>, líkt og vanalega þegar bn-hljóð heyrist í miðju orði.",
@@ -3445,7 +3445,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/7.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#7.6"
     },
     "8.1": null,
     "8.2.1": {
@@ -3475,7 +3475,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.2.1"
     },
     "8.2.2": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>.",
@@ -3504,7 +3504,7 @@
             }
         },
         "error_code": "missing-letter/letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.2.2"
     },
     "8.3": {
         "short_suggestion": "<villa> á líklega að vera <leiðrétt>.",
@@ -3533,7 +3533,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.3"
     },
     "8.4.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í öðrum beygingarmyndum orðsins.",
@@ -3562,7 +3562,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.4.1"
     },
     "8.4.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í skyldum orðum.",
@@ -3591,7 +3591,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.4.2"
     },
     "8.5.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og heyrist í kennimyndum.",
@@ -3620,7 +3620,7 @@
             }
         },
         "error_code": "missing-letter/letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.5.1"
     },
     "8.5.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>gg</i>, <leiðrétt>, líkt og í heiti sagnarinnar.",
@@ -3649,7 +3649,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.5.2"
     },
     "8.5.3": null,
     "8.6.1": {
@@ -3679,7 +3679,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.1"
     },
     "8.6.2": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -3708,7 +3708,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.2"
     },
     "8.6.3 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>g</i>, <leiðrétt>.",
@@ -3737,7 +3737,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.3 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.3"
     },
     "8.6.3 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>g</i>, <leiðrétt>.",
@@ -3766,7 +3766,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.3 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.3"
     },
     "8.6.4 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>g<i>, <leiðrétt>.",
@@ -3795,7 +3795,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.4 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.4"
     },
     "8.6.4 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>g</i>, <leiðrétt>.",
@@ -3824,7 +3824,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/8.6.4 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#8.6.4"
     },
     "8.6.5": null,
     "9.1": null,
@@ -3855,7 +3855,7 @@
             }
         },
         "error_code": "kv4hv",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/9.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#9.2"
     },
     "9.3": null,
     "10.1": null,
@@ -3886,7 +3886,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.2"
     },
     "10.3.1": {
         "short_suggestion": "<villa> á líklega að vera með <i>j</i>, <leiðrétt>.",
@@ -3915,7 +3915,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.3.1"
     },
     "10.3.2": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -3944,7 +3944,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.3.2"
     },
     "10.3.3": null,
     "10.4.1": {
@@ -3974,7 +3974,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.1"
     },
     "10.4.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera með <i>j</i>, <leiðrétt>.",
@@ -4003,7 +4003,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.2"
     },
     "10.4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -4032,7 +4032,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.4.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.4.2"
     },
     "10.5": {
         "short_suggestion": "<villa> á líklega að vera án <i>j</i>, <leiðrétt>.",
@@ -4061,7 +4061,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/10.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#10.5"
     },
     "11": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>m</i>, <leiðrétt>.",
@@ -4090,7 +4090,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/11"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#11."
     },
     "12.1": null,
     "12.2 (a)": {
@@ -4120,7 +4120,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.2"
     },
     "12.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>. ",
@@ -4149,7 +4149,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.2"
     },
     "12.3.1 (a)": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>. ",
@@ -4178,7 +4178,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.3.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.3.1"
     },
     "12.3.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4207,7 +4207,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.3.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.3.1"
     },
     "12.3.2": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>.",
@@ -4265,7 +4265,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.1"
     },
     "12.4.1 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4294,7 +4294,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.1"
     },
     "12.4.2 (a)": {
         "short_suggestion": "<villa> á líklega að vera með einföldu <i>n</i>, <leiðrétt>.",
@@ -4323,7 +4323,7 @@
             }
         },
         "error_code": "nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.2"
     },
     "12.4.2 (b)": {
         "short_suggestion": "<villa> á líklega að vera með tvöföldu <i>nn</i>, <leiðrétt>.",
@@ -4352,7 +4352,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.4.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.4.2"
     },
     "12.5": null,
     "12.6.2": {
@@ -4382,7 +4382,7 @@
             }
         },
         "error_code": "n4nn",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/12.6.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#12.6.2"
     },
     "12.7": null,
     "13.1": null,
@@ -4413,7 +4413,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.2.1"
     },
     "13.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>f</i>, <leiðrétt>.",
@@ -4442,7 +4442,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.2.2"
     },
     "13.3.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -4471,7 +4471,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.3.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.3.1"
     },
     "13.3.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>f</i>, <leiðrétt>.",
@@ -4500,7 +4500,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/13.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#13.3.2"
     },
     "14.1": null,
     "14.2.1 (a)": {
@@ -4530,7 +4530,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.1"
     },
     "14.2.1 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>, líkt og framburður gefur til kynna.",
@@ -4559,7 +4559,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.1"
     },
     "14.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4588,7 +4588,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.2"
     },
     "14.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4617,7 +4617,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.3"
     },
     "14.2.4": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>, líkt og í öllum myndum orðsins.",
@@ -4646,7 +4646,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.2.4"
     },
     "14.3 a": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>r</i>, <leiðrétt>. (Hægt er að styðjast við lýsingarorðið <i>stór</i>.)",
@@ -4675,7 +4675,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.3 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.3"
     },
     "14.3 b": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>rr</i>, <leiðrétt>. (Hægt er að styðjast við lýsingarorðið <i>stór</i>.)",
@@ -4704,7 +4704,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.3 b"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.3"
     },
     "14.4.1": {
         "short_suggestion": "<villa> á líklegast að vera með <i>r</i>, <leiðrétt>.",
@@ -4733,7 +4733,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.1"
     },
     "14.4.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>rl</i>, <leiðrétt>.",
@@ -4762,7 +4762,7 @@
             }
         },
         "error_code": "pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.2"
     },
     "14.4.3": {
         "short_suggestion": "<villa> á líklegast að vera með <i>rn</i>, <leiðrétt>.",
@@ -4791,7 +4791,7 @@
             }
         },
         "error_code": "pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/14.4.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#14.4.3"
     },
     "15.1": null,
     "15.2 (a)": {
@@ -4821,7 +4821,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.2"
     },
     "15.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>, líkt og framburður gefur til kynna.",
@@ -4850,7 +4850,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.2"
     },
     "15.3.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með einföldu <i>s</i>, <leiðrétt>.",
@@ -4879,7 +4879,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.1"
     },
     "15.3.1 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4908,7 +4908,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.1"
     },
     "15.3.2": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4937,7 +4937,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.2"
     },
     "15.3.3": {
         "short_suggestion": "<villa> er alltaf með einföldu <i>s</i>, <leiðrétt>.",
@@ -4966,7 +4966,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.3"
     },
     "15.3.4": {
         "short_suggestion": "<villa> er alltaf með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -4995,7 +4995,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.3.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.3.4"
     },
     "15.4": {
         "short_suggestion": "<villa> á líklegast að vera með tvöföldu <i>ss</i>, <leiðrétt>.",
@@ -5024,7 +5024,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.4"
     },
     "15.5.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5053,7 +5053,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.1"
     },
     "15.5.1. (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5082,7 +5082,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.1. (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.1"
     },
     "15.5.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5111,7 +5111,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.2"
     },
     "15.5.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5140,7 +5140,7 @@
             }
         },
         "error_code": "missing-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/15.5.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#15.5.2"
     },
     "16.1": {
         "short_suggestion": "<villa> á líklegast að vera með <i>ll</i>, <leiðrétt>.",
@@ -5169,7 +5169,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.1"
     },
     "16.2": {
         "short_suggestion": "<villa> á líklegast að vera með <i>nn</i>, <leiðrétt>.",
@@ -5198,7 +5198,7 @@
             }
         },
         "error_code": "letter-rep/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.2"
     },
     "16.3 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með <i>sl</i>, <leiðrétt>.",
@@ -5227,7 +5227,7 @@
             }
         },
         "error_code": "extra-letter/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.3 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.3"
     },
     "16.3 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með <i>sn</i>, <leiðrétt>.",
@@ -5256,7 +5256,7 @@
             }
         },
         "error_code": "extra-letter/pronun-writing",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/16.3 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#16.3"
     },
     "17.1": null,
     "17.2": {
@@ -5286,7 +5286,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.2"
     },
     "17.3": {
         "short_suggestion": "<villa> á líklegast að vera með <i>k</i>, <leiðrétt>.",
@@ -5315,7 +5315,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.3"
     },
     "17.4": {
         "short_suggestion": "<villa> á líklegast að vera með <i>x</i>, <leiðrétt>.",
@@ -5344,7 +5344,7 @@
             }
         },
         "error_code": "letter-rep",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/17.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#17.4"
     },
     "18.1": null,
     "18.2": null,
@@ -5375,7 +5375,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters/extra-letter/extra-letters/n4nn/nn4n",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/18.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#18.3"
     },
     "19.1": null,
     "19.2": {
@@ -5405,7 +5405,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.2"
     },
     "19.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5434,7 +5434,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.3"
     },
     "19.4": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5463,7 +5463,7 @@
             }
         },
         "error_code": "missing-letter/missing-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.4"
     },
     "19.5.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5492,7 +5492,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.1"
     },
     "19.5.2": {
         "short_suggestion": "<villa> á líklegast ekki að vera með <i>t</i>, <leiðrétt>.",
@@ -5521,7 +5521,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.2"
     },
     "19.5.3": {
         "short_suggestion": "<villa> á líklegast að vera eingöngu með <i>st</i>, <leiðrétt>.",
@@ -5550,7 +5550,7 @@
             }
         },
         "error_code": "extra-letter/extra-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.3"
     },
     "19.5.4 a": {
         "short_suggestion": "<villa> á líklegast að vera eingöngu með <i>sk</i>, <leiðrétt>.",
@@ -5579,7 +5579,7 @@
             }
         },
         "error_code": "extra-letter",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/19.5.4 a"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#19.5.4"
     },
     "20.1": null,
     "20.2": {
@@ -5609,7 +5609,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/20.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#20.2"
     },
     "20.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -5638,7 +5638,7 @@
             }
         },
         "error_code": "swapped-letters",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/20.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#20.3"
     },
     "21.1.1 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5667,7 +5667,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.1 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.1"
     },
     "21.1.1 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5696,7 +5696,7 @@
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.1 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.1"
     },
     "21.1.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5725,7 +5725,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.2"
     },
     "21.1.2 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5754,7 +5754,7 @@
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.1.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.1.2"
     },
     "21.1.3": null,
     "21.2.1": {
@@ -5784,7 +5784,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.1"
     },
     "21.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>, þar sem þetta er upptalning.",
@@ -5813,7 +5813,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.2"
     },
     "21.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5842,7 +5842,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.3"
     },
     "21.2.4": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5871,7 +5871,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.4"
     },
     "21.2.5 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5900,7 +5900,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.5 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.5"
     },
     "21.2.5 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5929,7 +5929,7 @@
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.5 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.5"
     },
     "21.2.6 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -5958,7 +5958,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.6 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.6"
     },
     "21.2.6 (b)": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -5987,7 +5987,7 @@
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.6 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.6"
     },
     "21.2.7": {
         "short_suggestion": "<villa> á líklegast ekki að vera með kommu, <leiðrétt>.",
@@ -6016,7 +6016,7 @@
             }
         },
         "error_code": "extra-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.7"
     },
     "21.2.8": {
         "short_suggestion": "<villa> á líklegast að vera með kommu, <leiðrétt>.",
@@ -6045,7 +6045,7 @@
             }
         },
         "error_code": "missing-comma",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/21.2.8"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#21.2.8"
     },
     "22.1": {
         "short_suggestion": "<villa> á líklegast að vera með punkti þar sem málsgrein lýkur, <leiðrétt>.",
@@ -6074,7 +6074,7 @@
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.1"
     },
     "22.2": {
         "short_suggestion": "<villa> á líklegast að vera með punkti á eftir raðtölustaf, <leiðrétt>.",
@@ -6103,7 +6103,7 @@
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.2"
     },
     "22.3 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með einum punkti, <leiðrétt>.",
@@ -6132,7 +6132,7 @@
             }
         },
         "error_code": "extra-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.3 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.3"
     },
     "22.3 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6161,7 +6161,7 @@
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.3 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.3"
     },
     "22.4": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6190,7 +6190,7 @@
             }
         },
         "error_code": "missing-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.4"
     },
     "22.5": {
         "short_suggestion": "<villa> á líklegast að vera með punkti, <leiðrétt>.",
@@ -6219,7 +6219,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.5"
     },
     "22.6 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6248,7 +6248,7 @@
             }
         },
         "error_code": "missing-period/abbreviation-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.6 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.6"
     },
     "22.6 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6277,7 +6277,7 @@
             }
         },
         "error_code": "extra-period/abbreviation-period",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/22.6 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#22.6"
     },
     "23.1": null,
     "23.2": {
@@ -6307,7 +6307,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/23.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#23.2"
     },
     "24.1": {
         "short_suggestion": "<villa> á líklega að vera með skástriki, <leiðrétt>.",
@@ -6336,7 +6336,7 @@
             }
         },
         "error_code": "missing-slash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/24.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#24.1"
     },
     "24.2": {
         "short_suggestion": "<villa> á líklega að vera með skástriki og bili, <leiðrétt>.",
@@ -6365,7 +6365,7 @@
             }
         },
         "error_code": "missing-slash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/24.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#24.2"
     },
     "25.1": {
         "short_suggestion": "<villa> á líklega að vera með spurningarmerki, <leiðrétt>.",
@@ -6394,7 +6394,7 @@
             }
         },
         "error_code": "missing-qm/comma4qm/period4qm/conjunction4qm",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/25.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#25.1"
     },
     "25.2": null,
     "26.1.1": {
@@ -6424,7 +6424,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.1"
     },
     "26.1.2": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6453,7 +6453,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.2"
     },
     "26.1.3": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6482,7 +6482,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.3"
     },
     "26.1.4": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6511,7 +6511,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.4"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.4"
     },
     "26.1.5": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6540,7 +6540,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.5"
     },
     "26.1.6": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6569,7 +6569,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.6"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.6"
     },
     "26.1.7": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6598,7 +6598,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.7"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.7"
     },
     "26.1.8": {
         "short_suggestion": "<villa> á líklegast að vera með bandstriki, <leiðrétt>.",
@@ -6627,7 +6627,7 @@
             }
         },
         "error_code": "missing-hyphen/slash4hyphen/endash4hyphen/emdash4hyphen",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.1.8"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.1.8"
     },
     "26.2.1": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6656,7 +6656,7 @@
             }
         },
         "error_code": "missing-endash/word4endash/hyphen4endash/emdash4endash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.1"
     },
     "26.2.2": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6685,7 +6685,7 @@
             }
         },
         "error_code": "missing-endash/word4endash/hyphen4endash/emdash4endash",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.2"
     },
     "26.2.3": {
         "short_suggestion": "<villa> á líklegast að vera með millistriki, <leiðrétt>.",
@@ -6714,7 +6714,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/26.2.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#26.2.3"
     },
     "26.3": null,
     "27.1": {
@@ -6744,18 +6744,18 @@
             }
         },
         "error_code": "missing-bracket/square4bracket/comma4bracket",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/27.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#27.1"
     },
     "27.2": {
         "short_suggestion": "<villa> á líklegast að vera með hornklofa, <leiðrétt>.",
         "long_suggestion": "Hornklofar eru settir utan um það sem skotið er inn í orðrétta tilvitnun. Einnig er hægt að setja hornklofa utan um úrfellingarpunkta, sérstaklega í orðréttum tilvitnunum. Sjá ritreglu 27.2 (https://ritreglur.arnastofnun.is/#27.2). ",
         "examples": {
             "1": {
-                "original_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna ... best siðaður, að því er menn viti dæmi til“.",
-                "standardized_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna [...] best siðaður, að því er menn viti dæmi til“.",
-                "suggestion": "<...> á líklegast að vera með hornklofa, <[...]>.",
-                "original_part": "...",
-                "standardized_part": "[...]"
+                "original_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna … best siðaður, að því er menn viti dæmi til“.",
+                "standardized_sentence": "Í Landnámabók (Sturlubók) segir um Þorkel að hann hafi verið „einn heiðinna manna […] best siðaður, að því er menn viti dæmi til“.",
+                "suggestion": "<…> á líklegast að vera með hornklofa, <[…]>.",
+                "original_part": "…",
+                "standardized_part": "[…]"
             },
             "2": {
                 "original_sentence": "Hann sagði: „Ég óska kennaranum (þ.e. Halldóru, innskot mitt) alls hins besta.“",
@@ -6768,12 +6768,12 @@
                 "original_sentence": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.",
                 "standardized_sentence": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn […]“.",
                 "suggestion": "<Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.> á líklegast að vera með hornklofa, <Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn […]“.>.",
-                "original_part": "Í Egils sögu segir: „Ver þú vel við,“ segir Egill, „þótt eg bakist við eldinn …“.",
-                "standardized_part": "[...]"
+                "original_part": "…“.",
+                "standardized_part": "[…]"
             }
         },
         "error_code": "missing-square/bracket4square",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/27.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#27.2"
     },
     "28.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6802,7 +6802,7 @@
             }
         },
         "error_code": "missing-quot/missing-quots/misplaced-quot/wrong-quot",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/28.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#28.1"
     },
     "28.2": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -6831,7 +6831,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/28.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#28.2"
     },
     "29.1": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6860,7 +6860,7 @@
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.1"
     },
     "29.2": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6889,7 +6889,7 @@
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.2"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.2"
     },
     "29.3": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -6918,7 +6918,7 @@
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.3"
     },
     "29.4 (a)": {
         "short_suggestion": "<villa> á líklegast að vera með stórum staf, <leiðrétt>.",
@@ -6947,7 +6947,7 @@
             }
         },
         "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.4 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.4"
     },
     "29.4 (b)": {
         "short_suggestion": "<villa> á líklegast að vera með litlum staf, <leiðrétt>.",
@@ -6976,7 +6976,7 @@
             }
         },
         "error_code": "upper4lower-noninitial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.4 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.4"
     },
     "29.5": {
         "short_suggestion": "<villa> á líklegast að vera með tvípunkti, <leiðrétt>.",
@@ -7005,7 +7005,7 @@
             }
         },
         "error_code": "missing-colon/period4colon/semicolon4colon/hyphen4colon/endash4colon/comma4colon",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/29.5"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#29.5"
     },
     "30.1": null,
     "30.2": null,
@@ -7036,7 +7036,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.1"
     },
     "31.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7057,15 +7057,15 @@
                 "standardized_part": "…"
             },
             "3": {
-                "original_sentence": "Margir kölluðu þetta... en þótti klúrt.",
+                "original_sentence": "Margir kölluðu þetta… en þótti klúrt.",
                 "standardized_sentence": "Margir kölluðu þetta … en þótti klúrt.",
-                "suggestion": "<... > á líklegast að vera < … >.",
-                "original_part": "... ",
+                "suggestion": "<…> á líklegast að vera < …>.",
+                "original_part": "…",
                 "standardized_part": " …"
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.2"
     },
     "31.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7086,15 +7086,15 @@
                 "standardized_part": "…"
             },
             "3": {
-                "original_sentence": "Helv ...",
-                "standardized_sentence": "Helv...",
-                "suggestion": "< ...> á líklegast að vera <...>.",
-                "original_part": " ...",
-                "standardized_part": "..."
+                "original_sentence": "Helv …",
+                "standardized_sentence": "Helv…",
+                "suggestion": "< …> á líklegast að vera <…>.",
+                "original_part": " …",
+                "standardized_part": "…"
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/31.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#31.2"
     },
     "32.1": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7123,7 +7123,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.1"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.1"
     },
     "32.2 (a)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7152,7 +7152,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.2 (a)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.2"
     },
     "32.2 (b)": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7181,7 +7181,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.2 (b)"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.2"
     },
     "32.3": {
         "short_suggestion": "<villa> á líklegast að vera <leiðrétt>.",
@@ -7210,7 +7210,7 @@
             }
         },
         "error_code": "",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/32.3"
+        "ritreglur_url": "https://ritreglur.arnastofnun.is/#32.3"
     },
     "33.1": null,
     "33.2": null
