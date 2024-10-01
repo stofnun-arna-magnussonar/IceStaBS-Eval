@@ -7,10 +7,10 @@ IceStaBS-Eval is a Python (3.10+) package for evaluating the performance of auto
 ## Installation
 
 ```bash
-pip install icestabs_evaluation
+pip install git+https://github.com/stofnun-arna-magnussonar/IceStaBS-Eval.git
 ```
 
-Running `icstabs-eval --help` should then produce the following output:
+Running `icestabs-eval --help` should then produce the following output:
 
 ```bash
 usage: icestabs-eval [-h] [--verbose] {single,config} ...
@@ -36,7 +36,7 @@ After installation, running the following command:
 icestabs-eval --verbose\
      single \
     --rules '/path/to/IceStaBS.json' \
-    --file 'example_corrections.txt'
+    --file 'demo_corrections.txt'
     --tool 'demo_tool' \
 ```
 
@@ -44,7 +44,7 @@ will:
 
 - Read the rules in the file `IceStaBS.json` at the given location.
 - Evaluate the performance of a **single** tool, with the designated name `demo_tool`
-- The file `example_corrections.txt` will be read as this tool's output file, on the IceStabs-SP benchark set sentences
+- The file `demo_corrections.txt` will be read as this tool's output file, on the IceStabs-SP benchark set sentences
 
 This will in turn produce the following output to the command line>
 
