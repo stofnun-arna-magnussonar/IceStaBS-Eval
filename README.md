@@ -1,4 +1,4 @@
-# Icelandic Standardization Benchmark Set: Spelling and punctuation
+# IceStaBS-Eval
 
 This repository contains tools to evaluate the performance of automatic spelling and grammar correction tools on the Icelandic language, by using the Icelandic Standardization Benchmark Set: Spelling and Punctuation (IceStaBS-SP) benchmark set.
 

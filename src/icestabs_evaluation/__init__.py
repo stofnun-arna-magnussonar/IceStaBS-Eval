@@ -1,7 +1,7 @@
 import json
 import yaml
 from typing import List
-from typing import Any, Dict, List
+from typing import Dict, List
 from dataclasses import dataclass
 
 

@@ -2,7 +2,7 @@ import argparse
 import logging
 from typing import List
 from pandas import DataFrame
-from . import load_rules_json, load_config_yaml, IceStaBSEvalException
+from . import load_rules_json, IceStaBSEvalException
 
 
 logger = logging.getLogger(__name__)
