@@ -1,6 +1,6 @@
 # IceStaBS-Eval
 
-This repository contains tools to evaluate the performance of automatic spelling and grammar correction tools on the Icelandic language, by using the Icelandic Standardization Benchmark Set: Spelling and Punctuation (IceStaBS-SP) benchmark set.
+IceStaBS-Eval is a Python (3.10+) package for evaluating the performance of automatic spelling and grammar correction tools on the Icelandic language, by using the Icelandic Standardization Benchmark Set: Spelling and Punctuation (IceStaBS:SP) benchmark set.
 
 # Overview
 
