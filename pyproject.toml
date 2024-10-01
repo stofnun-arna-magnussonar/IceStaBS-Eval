@@ -10,6 +10,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = ["pyyaml", "pandas", "tokenizer"]
 
 [project.urls]
 Homepage = "https://github.com/stofnun-arna-magnussonar/IceStaBS-SP"
