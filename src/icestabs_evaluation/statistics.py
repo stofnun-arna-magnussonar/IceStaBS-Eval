@@ -1,10 +1,10 @@
 import pandas as pd
-
+from collections import defaultdict
 from .token_level_eval import token_level_eval
-from .globals import _StatOverview
+from . import _StatOverview
 
 
-def data_from_file(filepath: str) -> pd.DataFrame:
+def data_from_tsv(filepath: str) -> pd.DataFrame:
     """
     Read a TSV file into a DataFrame.
     """
@@ -16,7 +16,36 @@ def data_from_file(filepath: str) -> pd.DataFrame:
         return pd.DataFrame()
 
 
-# build the overview data from the corrections dataframe
+def data_from_dict(data: dict) -> pd.DataFrame:
+    """
+    Read a dictionary into a DataFrame.
+
+    Args:
+        data (dict): A nested dictionary, where the keys are tools and the values are dictionaries of rule classes, each with 3 examples (List[Str]).
+    Returns:
+        pd.DataFrame: A DataFrame containing the data. the columns are in the format 'ex_{example_nr}_{tool_name}'.
+    """
+    try:
+        df = pd.DataFrame()
+
+        rule_classes = list(data.values())[0].keys()
+
+        df["rule"] = rule_classes
+        # Create an empty list to store the data
+        # Iterate over each tool in the dictionary
+        for tool, rule_classes in data.items():
+            tool_data = defaultdict(list)
+            # Iterate over each rule class in the tool
+            for rule_class, examples in rule_classes.items():
+                # Iterate over each example in the rule class
+                for i, example in enumerate(examples):
+                    col_name = f"ex_{i+1}_{tool}"
+                    tool_data[col_name].append(example)
+            for col_name, example_data in tool_data.items():
+                df[col_name] = example_data
+        return df
+    except Exception as e:
+        raise e
 
 
 def build_overview_data(corrections: pd.DataFrame) -> pd.DataFrame:
@@ -37,7 +66,7 @@ def build_overview_data(corrections: pd.DataFrame) -> pd.DataFrame:
                     row[standardized_label],
                 )
                 single_output_data = _StatOverview(
-                    rule=row["Ritregla"],
+                    rule=row["rule"],
                     tool=tool,
                     example_id=example_id,
                     input_text=row[original_label],

@@ -16,7 +16,13 @@ from tokenizer import split_into_sentences, correct_spaces
 
 tqdm.pandas()
 
-from evaluation import get_original_set, get_standardized_set, rule_classes, CONFIG
+from evaluation import (
+    load_custom_config,
+    get_original_set,
+    get_standardized_set,
+    rule_classes,
+    CONFIG,
+)
 
 
 def save_corrections(corrections: pd.DataFrame) -> None:
@@ -295,7 +301,7 @@ def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
         if isinstance(overwrite, bool):
             corrections = pd.DataFrame(
                 columns=[
-                    "Ritregla",
+                    "rule",
                     "ex_1_standardized",
                     "ex_2_standardized",
                     "ex_3_standardized",
@@ -305,7 +311,7 @@ def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
                 ]
             )
 
-            corrections["Ritregla"] = rule_classes
+            corrections["rule"] = rule_classes
             for i in range(1, 4):
                 corrections[f"ex_{i}_standardized"] = get_standardized_set(i)
                 corrections[f"ex_{i}_original"] = get_original_set(i)
@@ -338,7 +344,7 @@ def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
         else:
             corrections = pd.DataFrame(
                 columns=[
-                    "Ritregla",
+                    "rule",
                     "ex_1_standardized",
                     "ex_2_standardized",
                     "ex_3_standardized",
@@ -348,7 +354,7 @@ def initiate_corrections(overwrite: bool = False) -> pd.DataFrame:
                 ]
             )
 
-            corrections["Ritregla"] = rule_classes
+            corrections["rule"] = rule_classes
             for i in range(1, 4):
                 corrections[f"ex_{i}_standardized"] = get_standardized_set(i)
                 corrections[f"ex_{i}_original"] = get_original_set(i)

@@ -1,99 +1,22 @@
 from pandas import DataFrame
 from typing import Dict
 from datetime import datetime
-from evaluation.statistics import (
-    data_from_file,
-    build_overview_data,
+from icestabs_evaluation import load_config_yaml, data_from_tsv, build_overview_data
+from icestabs_evaluation.statistics import (
     generate_summary_table,
     generate_per_rule_table,
     leaderboard_from_per_rule_table,
     f_score_per_tool,
 )
-from evaluation import CONFIG as eval_config
 
 
 MD_TEMPLATE = """
-# Icelandic Standardization Benchmark Set: Spelling and punctuation
 
-This repository contains the Icelandic Standardization Benchmark Set (*IceStaBS*) for spelling and punctuation (*SP*).
+# IceStaBS-SP M14 Evaluation
 
-# Overview
+This directory contains the source code and metrics for WP 2 of the L15 (spell and grammar checking) M14 milestone of the Government of Iceland's Lanugage Technology Progamme.
 
-## Benchark Set
-
-The benchmark set is based on the Rules of the icelandic written standard. The rules are available at [ritreglur.arnastofnun.is](https://ritreglur.arnastofnun.is/).
-
-The rules of the icelandic written standard are divided into 33 chapters, with each class containing a various amount of sections and sub-rules.
-
-We designate 246 specific rules which are applicable in the context of automatic correction of spelling and grammar.
-This, combined to the fact that the rules are divided into 3 examples each, results in a total of 738 examples,
-which can be used to evaluate the performance of automatic spelling and grammar correction tools, based on the Language Usage Database (*Málfarsbankinn.)
-
-These attributes allow for a detailed evaluation of the performance of the tools on the _IceStaBS_ dataset.
-
-We make the benchmark set available in JSON format, which can be found in the `data` directory of this repository.
-
-## Contents
-
-The entry for each official spelling rule we cover contains:
-
-- A reference to the rule number.
-- A short explanation of the rule
-- A longer explanation
-- Three short examples (1-2 sentences) of a text containing the relevant error
-- The relevant error code in the [Icelandic Error Corpus](http://hdl.handle.net/20.500.12537/105)
-- The URL to the online entry of the spelling rule in question.
-
-An example is given below, for rule a one of two examples of [rule 1.2.1](https://ritreglur.arnastofnun.is/#1.2.1).
-
-The relevant excerpt of the original rule is as follows:
-
-```
-1.2.1 Stór stafur er ritaður í upphafi máls
-
-Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Á eftir upphrópunarmerki, spurningarmerki 
-og tvípunkti er stundum stór stafur, en aldrei á eftir kommu eða semíkommu, eins og ráða má af eftirfarandi dæmum og
-skýringum (sjá nánar um greinarmerki í reglum um greinarmerki).
-
-    Hann er kominn. Það var nú gott. [Upphaf máls og ný málsgrein á eftir punkti.]
-
-```
-
-The JSON entry (non-exhaustive) for this rule is as follows:
-
-```json
-    "1.2.1 (a)": {
-        "short_suggestion": "<villa> á líklega að vera með stórum staf, <leiðrétt>, þar sem það kemur á eftir punkti.",
-        "long_suggestion": "Stór stafur er alltaf ritaður í upphafi máls og í nýrri málsgrein á eftir punkti. Sjá ritreglu 1.2.1 (https://ritreglur.arnastofnun.is/#1.2.1).",
-        "examples": {
-            "1": {
-                "original_sentence": "Afi og amma ætla að koma í heimsókn. þau koma bráðum.",
-                "standardized_sentence": "Afi og amma ætla að koma í heimsókn. Þau koma bráðum.",
-                "suggestion": "<þau> á líklega að vera með stórum staf, <Þau>, þar sem það kemur á eftir punkti.",
-                "original_part": "þau",
-                "standardized_part": "Þau"
-            },
-            "2": {
-                "original_sentence": "Ráðgert er að nýtt hús rísi í vor. vinnan við það er þó ekki hafin.",
-                "standardized_sentence": "Ráðgert er að nýtt hús rísi í vor. Vinnan við það er þó ekki hafin.",
-                "suggestion": "<vinnan> á líklega að vera með stórum staf, <Vinnan>, þar sem það kemur á eftir punkti.",
-                "original_part": "vinnan",
-                "standardized_part": "Vinnan"
-            },
-            "3": {
-                "original_sentence": "Margt skiptir máli þegar skáldsögur eru skrifaðar. málfar er t.d. mikilvægar þáttur.",
-                "standardized_sentence": "Margt skiptir máli þegar skáldsögur eru skrifaðar. Málfar er t.d. mikilvægar þáttur.",
-                "suggestion": "<málfar> á líklega að vera með stórum staf, <Málfar>, þar sem það kemur á eftir punkti.",
-                "original_part": "málfar",
-                "standardized_part": "Málfar"
-            }
-        },
-        "error_code": "lower4upper-initial",
-        "ritreglur_url": "https://ritreglur.arnastofnun.is/#/1.2.1 (a)"
-    },
-```
-
-# Evaluation
+We assess available tools for automatic spella nd grammar checking based on the *IceStaBS: Spelling and Punctuation* benchmark set.
 
 ## Quick Overview
 
@@ -207,6 +130,7 @@ def generate_readme(
 
 
 if __name__ == "__main__":
+    eval_config = load_config_yaml("M14-eval-config.yml")
     tool_name_map = {
         "byt5-22-09": "byt5-22-09",
         "byt5-23-12": "byt5-23-12",
@@ -218,7 +142,7 @@ if __name__ == "__main__":
         "word": "ms_word",
         "puki": "puki",
     }
-    data = data_from_file("data/corrections.tsv")
+    data = data_from_tsv("data/corrections.tsv")
     overview = build_overview_data(data)
     # print the first row
     summary_table = generate_summary_table(overview)
