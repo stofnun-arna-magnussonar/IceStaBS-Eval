@@ -66,7 +66,7 @@ will:
 
 This will in turn produce the following output to the command line:
 
-```json
+```bash
 Summary for single tool: 'demo_tool'
 
 Score per example:
