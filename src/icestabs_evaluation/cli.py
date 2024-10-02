@@ -1,6 +1,6 @@
 import argparse
 import logging
-from typing import List
+from typing import Dict
 from pandas import DataFrame
 from . import load_rules_json, IceStaBSEvalException
 
@@ -21,13 +21,26 @@ def main():
     # Subparser for single file evaluation
     single_file_parser = subparsers.add_parser("single", help="Evaluate a single file")
     single_file_parser.add_argument(
-        "--rules", "-r", required=True, help="Path to the rules JSON file"
+        "--benchmark",
+        "-b",
+        required=True,
+        help="Path to the IceStaBS benchmark set JSON file",
     )
     single_file_parser.add_argument(
-        "--tool_name", "-t", help="The name of the tool to evaluate", required=True
+        "--tool_name",
+        "-t",
+        help="The name of the tool to evaluate, for visualization purposes",
+        required=True,
     )
     single_file_parser.add_argument(
         "--file", "-f", help="Path to the single file to evaluate", required=True
+    )
+    single_file_parser.add_argument(
+        "--output_format",
+        "-o",
+        help="Output format for the evaluation results",
+        choices=["json", "table"],
+        default="table",
     )
 
     # Subparser for config file evaluation
@@ -98,7 +111,16 @@ def validate_input_file(lines, rule_classes):
     logger.info("Input file length valid.")
 
 
-def visual_summary(tool_name: str, tables: List[DataFrame]):
+def tables_to_json(tables: Dict[str, DataFrame]) -> Dict[str, dict]:
+    return {
+        table_name: table.to_dict(orient="records")
+        for table_name, table in tables.items()
+    }
+
+
+def format_visual_summary(
+    tool_name: str, tables: Dict[str, DataFrame], output_format: str
+):
     """Basic visual summary of the evaluation results.
 
     Args:
@@ -106,15 +128,18 @@ def visual_summary(tool_name: str, tables: List[DataFrame]):
         tables (List[DataFrame]): List of DataFrames to display.
     """
     from rich.console import Console
-    from rich.table import Table
 
     console = Console()
 
-    console.print(f"\n[bold]Summary for {tool_name}[/bold]\n")
+    if output_format == "json":
+        console.print(tables_to_json(tables))
+        return
+    if output_format == "table":
+        console.print(f"\n[bold]Summary for single tool: '{tool_name}'[/bold]\n")
 
-    for table in tables:
-        console.print(f"[bold]{tool_name}[/bold]")
-        console.print(f"{table}\n")
+        for table_name, table in tables.items():
+            console.print(f"[bold]{table_name}:[/bold]")
+            console.print(f"{table.to_markdown(tablefmt='github', index=False)}\n")
 
 
 def evaluate_single_output(args: argparse.Namespace, RULES):
@@ -165,13 +190,35 @@ def evaluate_single_output(args: argparse.Namespace, RULES):
     data = data_from_dict(data_dict)
     logger.info("Data loaded successfully!")
 
+    # generate the main overview data used for the calculation
     overview_data = build_overview_data(data)
 
+    # format the summary table
     summary_table = generate_summary_table(overview_data)
+    summary_table = summary_table.reset_index(inplace=False)
+    summary_renaming_map = {
+        "Total_Count": "total_correct",
+        "ex_1": "ex_1_correct",
+        "ex_2": "ex_2_correct",
+        "ex_3": "ex_3_correct",
+    }
+    summary_table = summary_table.rename(columns=summary_renaming_map)
+
+    # format the per rule table
     per_rule_table = generate_per_rule_table(overview_data)
+    per_rule_table = per_rule_table.reset_index(inplace=False)
+    per_rule_table = per_rule_table.rename(columns={"Total": "total_possible"})
+
+    # calculate the F1 scores per tool
     f1_scores_table = f_score_per_tool(overview_data)
 
-    visual_summary(tool_name, [summary_table, per_rule_table, f1_scores_table])
+    tables = {
+        "Score per example": summary_table,
+        "Score per rule chapter": per_rule_table,
+        "F1 scores per tool": f1_scores_table,
+    }
+
+    format_visual_summary(tool_name, tables, args.output_format)
 
 
 if __name__ == "__main__":
