@@ -57,7 +57,7 @@ icestabs-eval --verbose  `# Enable verbose logging` \
      single  `# Mode of operation` \
     --benchmark '/path/to/IceStaBS.json' `# local path to the IceStaBS:SP becnhmark set file` \
     --file 'demo_corrections.txt' `# or the local path to the output file of the tool you want to evaluate` \
-    --tool 'demo_tool' `# name of the tool being evaluated, only for visualization purposes`
+    --tool_name 'demo_tool' `# name of the tool being evaluated, only for visualization purposes`
 ```
 
 will:
@@ -125,7 +125,7 @@ icestabs-eval --verbose `# Enable verbose logging` \
  single `# Mode of operation` \
  --benchmark '/path/to/IceStaBS.json' `# local path to the IceStaBS:SP file` \
  --file 'demo_corrections.txt' `# or the local path to the output file of the tool you want to evaluate` \
- --tool 'demo_tool' `# name of the tool being evaluated, only for visualization purposes` \
+ --tool_name 'demo_tool' `# name of the tool being evaluated, only for visualization purposes` \
  --output-format json `# set the output format to JSON`
 
 # will produce the following JSON output
