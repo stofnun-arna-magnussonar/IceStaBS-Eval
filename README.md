@@ -9,6 +9,8 @@ The tool does not run a given tool, but rather evaluates the output of a tool on
 ## Installation
 
 ```bash
+python -m venv .venv # create a virtual environment (recommended)
+source .venv/bin/activate # activate the virtual environment
 pip install git+https://github.com/stofnun-arna-magnussonar/IceStaBS-Eval.git
 ```
 
