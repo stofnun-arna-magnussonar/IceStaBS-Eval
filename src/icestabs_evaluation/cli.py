@@ -51,7 +51,7 @@ def main():
         "--config", "-c", required=True, help="Path to the configuration YAML file"
     )
     config_file_parser.add_argument(
-        "--rules", "-r", required=True, help="Path to the rules JSON file"
+        "--rules", "-r", required=True, help="Path to the benchmark JSON file"
     )
     parser.add_argument(
         "--verbose", "-v", action="store_true", help="Enable verbose logging"
@@ -67,9 +67,9 @@ def main():
     # Handling different modes
     if args.mode == "single":
         logger.info(f"Evaluating single file: {args.file} with tool {args.tool_name}")
-        logger.info(f"Using rules file: {args.rules}")
+        logger.info(f"Using benchmark file: {args.benchmark}")
         global RULES
-        RULES = load_rules_json(args.rules)
+        RULES = load_rules_json(args.benchmark)
         logger.info("Rules loaded successfully")
 
         evaluate_single_output(args, RULES)
@@ -77,13 +77,13 @@ def main():
 
     elif args.mode == "csv":
         logger.info(f"Evaluating with csv file: {args.csv}")
-        logger.info(f"Using rules file: {args.rules}")
+        logger.info(f"Using benchmark file: {args.benchmark}")
 
         # Add your logic for csv file-based evaluation
 
     elif args.mode == "config":
         logger.info(f"Evaluating with config file: {args.config}")
-        logger.info(f"Using rules file: {args.rules}")
+        logger.info(f"Using benchmark file: {args.benchmark}")
 
         # Add your logic for config file-based evaluation here
 
@@ -144,11 +144,11 @@ def format_visual_summary(
 
 def evaluate_single_output(args: argparse.Namespace, RULES):
     """
-    Evaluates the output of a single tool based on the provided arguments and rules.
+    Evaluates the output of a single tool based on the provided arguments and benchmark.
 
     Args:
         args (argparse.Namespace): The command-line arguments containing the input file and tool name.
-        RULES: An object containing the rules and methods to retrieve original and standardized examples.
+        RULES: An object containing the benchmark and methods to retrieve original and standardized examples.
 
     Returns:
         None
